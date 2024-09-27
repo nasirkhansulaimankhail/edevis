@@ -158,13 +158,6 @@ fixtures = [
             ]
         ]
     ]},
-    {"dt": "Workflow", "filters": [
-        [
-            "name", "in", [
-            "Lead Approval Process"
-            ]
-        ]
-    ]},
     {"dt": "Print Format", "filters": [
         [
             "name", "in", [
@@ -178,15 +171,41 @@ fixtures = [
               ]
         ]
     ]},
-    {"dt": "Letter Head", "filters": [
+    {"dt": "Workflow", "filters": [
         [
             "name", "in", [
-                "edevis Letter",
-                "edevis Datasheet",
-                "edevis Datasheet Modern",
+            "Lead Approval Process"
             ]
         ]
-    ]}
+    ]},
+    {
+		"doctype": "Workflow State"
+    },
+    {"dt": "Role", "filters": [
+        [
+            "name", "in", [
+            "00201 ADM",
+            "00201 APP"
+            ]
+        ]
+    ]},
+     {"dt": "Client Script", "filters": [
+        [
+            "name", "in", [
+            "Opportunity Validation",
+            "Lead Validations"
+            ]
+        ]
+    ]},
+     {"dt": "Notification", "filters": [
+        [
+            "name", "in", [
+            "Lead workflow",
+            ]
+        ]
+    ]},
+    
+
 ]
 
 # Scheduled Tasks
@@ -298,3 +317,4 @@ jinja = {
         "edevis.custom_scripts.custom_python.quote_methods.structurize_quoteitem"
     ]
 }
+

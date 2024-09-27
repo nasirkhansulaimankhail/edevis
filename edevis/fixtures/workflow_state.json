@@ -1,0 +1,92 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "question-sign",
+  "modified": "2024-09-26 13:28:55.914221",
+  "name": "Pending",
+  "style": "",
+  "workflow_state_name": "Pending"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "ok-sign",
+  "modified": "2024-09-26 13:28:55.916279",
+  "name": "Approved",
+  "style": "Success",
+  "workflow_state_name": "Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "remove",
+  "modified": "2024-09-26 13:28:55.917683",
+  "name": "Rejected",
+  "style": "Danger",
+  "workflow_state_name": "Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-26 14:25:03.621280",
+  "name": "Entwurf",
+  "style": "Info",
+  "workflow_state_name": "Entwurf"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-26 14:24:22.656473",
+  "name": "Cancellation by ADM",
+  "style": "Danger",
+  "workflow_state_name": "Cancellation by ADM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-26 14:24:11.494571",
+  "name": "Marketing mailing list",
+  "style": "Success",
+  "workflow_state_name": "Marketing mailing list"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-26 14:24:58.101064",
+  "name": "Draft",
+  "style": "Info",
+  "workflow_state_name": "Draft"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-26 14:24:50.880319",
+  "name": "To be released by ADM",
+  "style": "Primary",
+  "workflow_state_name": "To be released by ADM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-26 14:24:41.367907",
+  "name": "To be released by APP",
+  "style": "Primary",
+  "workflow_state_name": "To be released by APP"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-26 14:24:16.042163",
+  "name": "Can be converted to customer",
+  "style": "Success",
+  "workflow_state_name": "Can be converted to customer"
+ }
+]
