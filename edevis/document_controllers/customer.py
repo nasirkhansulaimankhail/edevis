@@ -7,11 +7,11 @@ class Customer(ERPNextCustomer):
 
     #overrides existing autoname function in standard Customer Class from ERPNext
     def autoname(self):
-        customer_id = 10000
+        customer_id = 10001
         last_customer_id = self.get_last_customer_id()
         
         #validates if the max customer id is greater than 10000, as the 10000 is the starting ID for Customer
-        if last_customer_id >= 10000:
+        if last_customer_id >= 10001:
             customer_id = last_customer_id + 1
         
         #sets customer ID
