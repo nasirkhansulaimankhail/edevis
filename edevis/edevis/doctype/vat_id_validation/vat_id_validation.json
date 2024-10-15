@@ -1,0 +1,182 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:VV-{customer}-{YY}-{MM}-{DD}-{#####}",
+ "creation": "2022-12-30 19:16:06.560401",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer",
+  "tax_id",
+  "section_break_3",
+  "validation_taxid",
+  "validation_result",
+  "section_break_6",
+  "validation_name",
+  "validation_street",
+  "validation_zipcode",
+  "validation_city",
+  "column_break_11",
+  "company_name",
+  "address_line_1",
+  "zip_code",
+  "city",
+  "section_break_16",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "bold": 1,
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Customer",
+   "options": "Customer",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "tax_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "TaxID",
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "validation_taxid",
+   "fieldtype": "Data",
+   "label": "Validation TaxID",
+   "read_only": 1
+  },
+  {
+   "fieldname": "validation_result",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Validation Result",
+   "options": "Invalid\nValid",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "validation_name",
+   "fieldtype": "Select",
+   "label": "Validation Company Name",
+   "options": "Invalid\nValid",
+   "read_only": 1
+  },
+  {
+   "fieldname": "validation_street",
+   "fieldtype": "Select",
+   "label": "Validation Street",
+   "options": "Invalid\nValid",
+   "read_only": 1
+  },
+  {
+   "fieldname": "validation_zipcode",
+   "fieldtype": "Select",
+   "label": "Validation ZIP Code",
+   "options": "Invalid\nValid",
+   "read_only": 1
+  },
+  {
+   "fieldname": "validation_city",
+   "fieldtype": "Select",
+   "label": "Validation City",
+   "options": "Invalid\nValid",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "address_line_1",
+   "fieldtype": "Data",
+   "label": "Address Line 1",
+   "read_only": 1
+  },
+  {
+   "fieldname": "zip_code",
+   "fieldtype": "Data",
+   "label": "Zip Code",
+   "read_only": 1
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "VAT ID Validation",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-09-23 13:10:35.385526",
+ "modified_by": "Administrator",
+ "module": "Edevis",
+ "name": "VAT ID Validation",
+ "name_case": "UPPER CASE",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Employee",
+   "select": 1,
+   "share": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

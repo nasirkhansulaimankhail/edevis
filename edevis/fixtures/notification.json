@@ -1,0 +1,53 @@
+[
+ {
+  "attach_print": 0,
+  "channel": "Email",
+  "condition": null,
+  "date_changed": null,
+  "days_in_advance": 0,
+  "docstatus": 0,
+  "doctype": "Notification",
+  "document_type": "Lead",
+  "enabled": 1,
+  "event": "Value Change",
+  "is_standard": 0,
+  "message": "Workflow statuswechsel in {{ doc.name }} ",
+  "message_type": "Markdown",
+  "method": null,
+  "modified": "2024-09-26 15:35:22.181273",
+  "module": null,
+  "name": "Lead workflow",
+  "print_format": null,
+  "property_value": null,
+  "recipients": [
+   {
+    "bcc": null,
+    "cc": null,
+    "condition": null,
+    "parent": "Lead workflow",
+    "parentfield": "recipients",
+    "parenttype": "Notification",
+    "receiver_by_document_field": null,
+    "receiver_by_role": "00201 ADM"
+   },
+   {
+    "bcc": null,
+    "cc": null,
+    "condition": null,
+    "parent": "Lead workflow",
+    "parentfield": "recipients",
+    "parenttype": "Notification",
+    "receiver_by_document_field": null,
+    "receiver_by_role": "00201 APP"
+   }
+  ],
+  "send_system_notification": 0,
+  "send_to_all_assignees": 0,
+  "sender": "edevisedevis@gmail.com",
+  "sender_email": "edevisedevis@gmail.com",
+  "set_property_after_alert": null,
+  "slack_webhook_url": null,
+  "subject": "Workflow statuswechsel in {{ doc.name }}",
+  "value_changed": "workflow_state"
+ }
+]

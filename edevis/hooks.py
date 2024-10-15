@@ -158,6 +158,19 @@ fixtures = [
             ]
         ]
     ]},
+    {"dt": "Print Format", "filters": [
+        [
+            "name", "in", [
+                "Quote",
+                "QuoteNew",
+                "QuoteTest",
+                "Leistungsbeschreibung",
+                "Auftragsbestätigung",
+                "Invoice",
+                "DeliveryNote"
+              ]
+        ]
+    ]},
     {"dt": "Workflow", "filters": [
         [
             "name", "in", [
@@ -165,6 +178,34 @@ fixtures = [
             ]
         ]
     ]},
+    {
+		"doctype": "Workflow State"
+    },
+    {"dt": "Role", "filters": [
+        [
+            "name", "in", [
+            "00201 ADM",
+            "00201 APP"
+            ]
+        ]
+    ]},
+     {"dt": "Client Script", "filters": [
+        [
+            "name", "in", [
+            "Opportunity Validation",
+            "Lead Validations"
+            ]
+        ]
+    ]},
+     {"dt": "Notification", "filters": [
+        [
+            "name", "in", [
+            "Lead workflow",
+            ]
+        ]
+    ]},
+    
+
 ]
 
 # Scheduled Tasks
@@ -263,4 +304,17 @@ fixtures = [
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
+
+
+jinja = {
+    "methods": [
+        "edevis.custom_scripts.custom_python.quote_methods.check_quoteitems",
+        "edevis.custom_scripts.custom_python.quote_methods.has_custom_pos",
+        "edevis.custom_scripts.custom_python.quote_methods.quote_checkpaymentterms",
+        "edevis.custom_scripts.custom_python.quote_methods.quoteitem_is_header",
+        "edevis.custom_scripts.custom_python.quote_methods.is_sectionend",
+        "edevis.custom_scripts.custom_python.quote_methods.quoteitem_has_discount",
+        "edevis.custom_scripts.custom_python.quote_methods.structurize_quoteitem"
+    ]
+}
 

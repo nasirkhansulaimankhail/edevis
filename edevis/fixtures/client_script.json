@@ -1,0 +1,24 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Opportunity",
+  "enabled": 1,
+  "modified": "2024-09-26 14:41:37.172158",
+  "module": null,
+  "name": "Opportunity Validation",
+  "script": "frappe.ui.form.on(\"Opportunity\", {\n  //Remove option to generate Opportunity from Lead\n  //Remove option to generate quote from Lead\n  refresh(frm) {\n    setTimeout(() => {\n      frm.remove_custom_button(\"Supplier Quotation\", \"Create\");\n      frm.remove_custom_button(\"Request For Quotation\", \"Create\");\n    }, 50);\n  },\n});\n",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Lead",
+  "enabled": 1,
+  "modified": "2024-09-26 14:42:38.546348",
+  "module": null,
+  "name": "Lead Validations",
+  "script": "\nfrappe.ui.form.on(\"Lead\", {\n  //Remove option to generate Opportunity from Lead\n  //Remove option to generate quote from Lead\n  refresh(frm) {\n    \n  },\n});\n\nfrappe.ui.form.on(\"Lead\", {\n  refresh: function (frm) {\n    if (frm.doc.workflow_state == \"Can be converted to customer\") {\n      setTimeout(() => {\n      frm.remove_custom_button(\"Opportunity\", \"Create\");\n      frm.remove_custom_button(\"Quotation\", \"Create\");\n      frm.remove_custom_button(\"Prospect\", \"Create\");\n      \n      frm.remove_custom_button(\"Add to Prospect\", \"Action\");\n    }, 50);\n    }\n    else{\n        setTimeout(() => {\n      frm.remove_custom_button(\"Opportunity\", \"Create\");\n      frm.remove_custom_button(\"Quotation\", \"Create\");\n      frm.remove_custom_button(\"Prospect\", \"Create\");\n      frm.remove_custom_button(\"Customer\", \"Create\");\n      frm.remove_custom_button(\"Add to Prospect\", \"Action\");\n    }, 50);\n    }\n  },\n});\n",
+  "view": "Form"
+ }
+]

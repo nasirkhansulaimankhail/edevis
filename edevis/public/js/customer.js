@@ -2,6 +2,24 @@ frappe.ui.form.on("Customer", {
   refresh(frm) {
     frm.trigger("setup_opportunity_button");
     frm.trigger("setup_connections");
+    frm.remove_custom_button("Get Customer Group Details", "Actions");
+    frm.remove_custom_button("Pricing Rule", "Create");
+    frm.remove_custom_button("Accounting Ledger", "View");
+    frm.add_custom_button(__('Validate Tax-ID'), function(){
+      frappe.call({
+        method: "edevis.custom_scripts.custom_python.checkvat.checkvat",
+        args: {
+          name: frm.doc.customer_name,
+          tax_id: frm.doc.tax_id,
+          address: frm.doc.customer_primary_address
+        },
+        freeze: true,
+        freeze_message: __('Retrieving VAT Information from server...'),
+        callback: function(r) {
+          // frappe.msgprint (r)
+        }
+      });
+    }, __("Actions"));
   },
 
   setup_opportunity_button(frm) {
@@ -105,17 +123,5 @@ frappe.ui.form.on("Customer", {
       method: "edevis.custom_scripts.custom_python.customer.create_opportunity",
       frm: frm,
     });
-  },
-});
-
-frappe.ui.form.on("Customer", {
-  //Remove option to generate Opportunity from Lead
-  //Remove option to generate quote from Lead
-  refresh(frm) {
-    setTimeout(() => {
-      frm.remove_custom_button("Get Customer Group Details", "Actions");
-      frm.remove_custom_button("Pricing Rule", "Create");
-      frm.remove_custom_button("Accounting Ledger", "View");
-    }, 50);
   },
 });
