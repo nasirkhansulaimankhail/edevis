@@ -161,6 +161,7 @@ fixtures = [
     {"dt": "Print Format", "filters": [
         [
             "name", "in", [
+                "Quotation - ED",
                 "Quote",
                 "QuoteNew",
                 "QuoteTest",
@@ -208,6 +209,7 @@ fixtures = [
         [
             "name", "in", [
                 "edevis Letter",
+                "edevis Letterhead",
                 "edevis Datasheet",
                 "edevis Datasheet Modern",
             ]
