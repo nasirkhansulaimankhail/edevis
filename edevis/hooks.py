@@ -162,13 +162,6 @@ fixtures = [
         [
             "name", "in", [
                 "Quotation - ED",
-                "Quote",
-                "QuoteNew",
-                "QuoteTest",
-                "Leistungsbeschreibung",
-                "Auftragsbestätigung",
-                "Invoice",
-                "DeliveryNote"
               ]
         ]
     ]},
