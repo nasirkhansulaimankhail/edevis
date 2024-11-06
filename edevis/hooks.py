@@ -141,23 +141,6 @@ doc_events = {
 }
 
 fixtures = [
-    {"dt": "Translation", "filters": [
-        [
-            "name", "in", [
-            "gjl90a7e63",
-            "gitrkf1beu",
-            "ggqc7oh1gj",
-            "ggnbofjoaq",
-            "gg0s7pu06s",
-            "gb8n8pofv1",
-            "gcnbiriisu",
-            "gceik5povl",
-            "gb1co6jil4",
-            "gbhpvjqck1",
-            "gaofstpch2"
-            ]
-        ]
-    ]},
     {"dt": "Print Format", "filters": [
         [
             "name", "in", [
@@ -202,7 +185,6 @@ fixtures = [
         [
             "name", "in", [
                 "edevis Letter",
-                "edevis Letterhead",
                 "edevis Datasheet",
                 "edevis Datasheet Modern",
             ]
