@@ -207,8 +207,13 @@ fixtures = [
                 "edevis Datasheet Modern",
             ]
         ]
-    ]}
-
+    ]},
+    {
+        "doctype": "Print Settings"
+    },
+    {
+        "doctype": "Terms and Conditions"
+    }
 ]
 
 # Scheduled Tasks
