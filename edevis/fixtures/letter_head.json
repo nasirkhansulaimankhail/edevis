@@ -64,7 +64,7 @@
   "image_width": 0.0,
   "is_default": 0,
   "letter_head_name": "edevis Letter",
-  "modified": "2024-11-05 10:19:12.447762",
+  "modified": "2024-11-06 13:04:56.098981",
   "name": "edevis Letter",
   "source": "HTML"
  },
@@ -87,8 +87,8 @@
   "image_width": 0.0,
   "is_default": 1,
   "letter_head_name": "edevis Letterhead",
-  "modified": "2024-11-05 11:13:46.378702",
+  "modified": "2024-11-06 13:04:29.027003",
   "name": "edevis Letterhead",
-  "source": "Image"
+  "source": "HTML"
  }
 ]

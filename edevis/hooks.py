@@ -162,13 +162,6 @@ fixtures = [
         [
             "name", "in", [
                 "Quotation - ED",
-                "Quote",
-                "QuoteNew",
-                "QuoteTest",
-                "Leistungsbeschreibung",
-                "Auftragsbestätigung",
-                "Invoice",
-                "DeliveryNote"
               ]
         ]
     ]},
@@ -214,8 +207,13 @@ fixtures = [
                 "edevis Datasheet Modern",
             ]
         ]
-    ]}
-
+    ]},
+    {
+        "doctype": "Print Settings"
+    },
+    {
+        "doctype": "Terms and Conditions"
+    }
 ]
 
 # Scheduled Tasks
