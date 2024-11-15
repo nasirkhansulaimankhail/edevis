@@ -198,6 +198,18 @@ fixtures = [
     },
     {
         "doctype": "Translation"
+    },
+    {
+        "doctype": "Item", "filters": [
+            [
+                "name", "in", [
+                    "Section Header",
+                    "Section End"
+            ]
+        ]
+    ]},
+    {
+        "doctype": "Item Group"
     }
 ]
 
