@@ -32,6 +32,7 @@ doctype_js = {
     "Customer" : "public/js/customer.js",
     "Lead" : "public/js/lead.js",
     "Opportunity": "public/js/opportunity.js",
+    "Sales Order": "public/js/sales_order.js",
 }
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
@@ -145,6 +146,7 @@ fixtures = [
         [
             "name", "in", [
                 "Quotation - ED",
+                "Sales Order - ED"
               ]
         ]
     ]},
@@ -198,6 +200,18 @@ fixtures = [
     },
     {
         "doctype": "Translation"
+    },
+    {
+        "doctype": "Item", "filters": [
+            [
+                "name", "in", [
+                    "Section Header",
+                    "Section End"
+            ]
+        ]
+    ]},
+    {
+        "doctype": "Item Group"
     }
 ]
 
