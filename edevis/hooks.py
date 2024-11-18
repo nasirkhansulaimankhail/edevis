@@ -209,11 +209,7 @@ fixtures = [
                     "Section End"
             ]
         ]
-    ]},
-    {
-        "doctype": "Item Group"
-    }
-]
+    ]}
 
 # Scheduled Tasks
 # ---------------
