@@ -210,7 +210,7 @@ fixtures = [
             ]
         ]
     ]}
-
+]
 # Scheduled Tasks
 # ---------------
 
