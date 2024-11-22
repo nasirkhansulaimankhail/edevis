@@ -16,7 +16,7 @@
   "image": "",
   "image_height": 0.0,
   "image_width": 0.0,
-  "is_default": 0,
+  "is_default": 1,
   "letter_head_name": "edevis Datasheet",
   "modified": "2021-11-18 18:21:12.941255",
   "name": "edevis Datasheet",
@@ -66,6 +66,6 @@
   "letter_head_name": "edevis Letter",
   "modified": "2024-11-06 13:04:56.098981",
   "name": "edevis Letter",
-  "source": "HTML"
+  "source": "Image"
  }
 ]
