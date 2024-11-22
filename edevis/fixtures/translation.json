@@ -7,6 +7,32 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "de",
+  "modified": "2024-11-22 12:58:15.486530",
+  "name": "a24e35bfb5",
+  "source_text": "Project No.",
+  "translated_text": "Projekt Nr."
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2024-11-22 12:58:23.690463",
+  "name": "ddb537d7c0",
+  "source_text": "Project No.",
+  "translated_text": "Project No."
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
   "modified": "2021-06-11 15:59:39.193546",
   "name": "a02b86583b",
   "source_text": "Prospecting",
@@ -4804,10 +4830,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "de",
-  "modified": "2024-05-28 09:56:36.090999",
+  "modified": "2024-11-22 14:49:18.168258",
   "name": "\"1a0f5d68f5\"",
   "source_text": "Supply of spare parts text",
-  "translated_text": "Die Edevis GmbH garantiert die Lieferung von Ersatzteilen für einen Zeitraum von 5 Jahren ab dem Lieferdatum. Gewährleistungsfrist: 365 Tage. Die Gewährleistungsfrist beginnt mit dem Tag der Lieferung und ist unabhängig von der Betriebsdauer. Innerhalb dieser Frist haben wir die Möglichkeit, ein defektes Teil kostenlos zu reparieren oder durch ein einwandfreies zu ersetzen. Wir übernehmen keine Haftung für Schäden, die aus folgenden Gründen entstanden sind: Ungeeignete oder unsachgemäße Verwendung, Eingriffe, Montage oder Inbetriebnahme durch den Käufer oder Dritte, natürliche Abnutzung oder fehlerhafte Behandlung."
+  "translated_text": "Gewährleistungsfrist: 365 Tage*. Die Gewährleistungsfrist beginnt mit dem Tag der Lieferung und ist unabhängig von der Betriebsdauer. Innerhalb dieser Frist haben wir die Möglichkeit, ein defektes Teil kostenlos zu reparieren oder durch ein einwandfreies zu ersetzen. Wir übernehmen keine Haftung für Schäden, die aus folgenden Gründen entstanden sind: Ungeeignete oder unsachgemäße Verwendung, Eingriffe, Montage oder Inbetriebnahme durch den Käufer oder Dritte, natürliche Abnutzung oder fehlerhafte Behandlung.\n<br><br>\n*Verschleißteile sind von der allgemeinen Gewährleistungsfrist ausgenommen"
  },
  {
   "context": null,
@@ -5077,10 +5103,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "de",
-  "modified": "2024-05-28 09:56:37.182746",
+  "modified": "2024-11-22 14:47:54.889800",
   "name": "\"6750957aa7\"",
   "source_text": "Supply of spare parts",
-  "translated_text": "Ersatzteilversorgung"
+  "translated_text": "Gewährleistung"
  },
  {
   "context": null,
@@ -5246,10 +5272,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "en",
-  "modified": "2024-05-28 09:56:37.745874",
+  "modified": "2024-11-22 14:48:49.097700",
   "name": "\"b7fba22522\"",
   "source_text": "Supply of spare parts text",
-  "translated_text": "Edevis GmbH guarantees the supply of spare parts for a period of 5 years from the date of delivery. Warranty period: 365 days. The warranty period begins on the day of delivery and is independent of the operating time. Within this period we have the option of repairing a defective part free of charge or replacing it with a faultless one. We do not accept any liability for damage caused by the following reasons: unsuitable or improper use, tampering, assembly or commissioning by the purchaser or third parties, natural wear and tear or incorrect handling."
+  "translated_text": "Warranty period: 365 days*. The warranty period begins on the day of delivery and is independent of the operating time. Within this period we have the option of repairing a defective part free of charge or replacing it with a faultless one. We do not accept any liability for damage caused by the following reasons: unsuitable or improper use, tampering, assembly or commissioning by the purchaser or third parties, natural wear and tear or incorrect handling.\n<br><br>\n*Wearing parts are excluded from the general warranty period"
  },
  {
   "context": null,

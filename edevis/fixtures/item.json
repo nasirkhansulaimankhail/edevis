@@ -32,7 +32,6 @@
   "has_expiry_date": 0,
   "has_serial_no": 0,
   "has_variants": 0,
-  "hub_sync_id": null,
   "image": null,
   "include_item_in_manufacturing": 1,
   "inspection_required_before_delivery": 0,
@@ -64,7 +63,6 @@
     "selling_cost_center": null
    }
   ],
-  "item_documentation": [],
   "item_group": "Format Elemente",
   "item_name": "Section End",
   "last_purchase_rate": 0.0,
@@ -143,7 +141,6 @@
   "has_expiry_date": 0,
   "has_serial_no": 0,
   "has_variants": 0,
-  "hub_sync_id": null,
   "image": null,
   "include_item_in_manufacturing": 1,
   "inspection_required_before_delivery": 0,
@@ -175,7 +172,6 @@
     "selling_cost_center": null
    }
   ],
-  "item_documentation": [],
   "item_group": "Format Elemente",
   "item_name": "Section Header",
   "last_purchase_rate": 0.0,
