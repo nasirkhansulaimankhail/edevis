@@ -6,6 +6,45 @@
   "contribution_status": "",
   "docstatus": 0,
   "doctype": "Translation",
+  "language": "en",
+  "modified": "2024-11-28 07:39:13.938670",
+  "name": "a2276b3e13",
+  "source_text": "Commercial contact",
+  "translated_text": "Commercial contact: Thomas Zweschper | Tel.: +49 711 933077-22 | mailto:thomas.zweschper@edevis.de"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2024-11-28 09:06:00.551487",
+  "name": "a570e055ec",
+  "source_text": "Technical contact",
+  "translated_text": "Technical contact"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2024-11-28 09:06:10.677730",
+  "name": "e7c66d799a",
+  "source_text": "Technical contact",
+  "translated_text": "Ansprechpartner technisch"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
   "language": "de",
   "modified": "2024-11-25 13:41:37.899215",
   "name": "689f702be2",
@@ -4206,10 +4245,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "de",
-  "modified": "2022-05-18 16:51:33.566393",
+  "modified": "2024-12-03 12:19:30.830822",
   "name": "0d893639c1",
   "source_text": "Commercial contact",
-  "translated_text": "Kaufmännischer Ansprechpartner"
+  "translated_text": "Kaufmännischer Ansprechpartner: Thomas Zweschper | Tel.: +49 711 933077-22 | mailto:thomas.zweschper@edevis.de"
  },
  {
   "context": null,
