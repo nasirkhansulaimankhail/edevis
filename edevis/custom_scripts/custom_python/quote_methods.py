@@ -128,8 +128,8 @@ def get_contacts(self):
 				contact = frappe.get_doc("Contact", contact_name)
 				contacts.append({
 					"full_name": contact.full_name,
-					"email": contact.email_ids[0].email_id,
-					"phone":contact.phone_nos[0].phone
+					"email": contact.email_ids[0].email_id if contact.email_ids else '',
+					"phone":contact.phone_nos[0].phone if contact.phone_nos else ''
 				})
 
 	return contacts
