@@ -1,0 +1,38 @@
+[
+ {
+  "de": "<div class=\"ql-editor read-mode\"><p><br></p></div>",
+  "docstatus": 0,
+  "doctype": "Dual Use Template",
+  "en": "<div class=\"ql-editor read-mode\"><p>These commodities are authorized for export by the US government only to Germany (end user country) for use by ---CUSTOMER--- under license ---LICENSE---. They may not be resold, diverted, transferred, or otherwise be disposed of, to any other country or to any person other than the authorized end-user or consignees, either in their original form or after being incorporated into other end items, without first obtaining approval from the U.S. Department of State or use of an applicable exemption.</p></div>",
+  "modified": "2024-11-28 15:34:34.334805",
+  "name": "Dual-Use (ITAR controlled)",
+  "title": "Dual-Use (ITAR controlled)"
+ },
+ {
+  "de": "<div class=\"ql-editor read-mode\"><p>Diese Güter (Hard- und Software) dürfen nicht für die Entwicklung, Konstruktion, Produktion oder den Gebrauch von nuklearen, chem. oder biolog. Waffensystemen verwendet werden. Diese Güter dürfen weder temporär noch dauerhaft in folgende Staaten exportiert oder verkauft werden: Belarus, Burundi, der Zentralafrikanischen Republik, der Region Krim (Ukraine), Kuba, der Demokratischen Republik Kongo, Republik Kongo, der Region Donezk (Ukraine), Guinea-Bissau, Iran, Nordkorea, Region Luhansk (Ukraine), Russland, Ruanda, Republik Südsudan, Republik Sudan, Somalia, Syrien, Tansania, Uganda, Sambia und Simbabwe. Ausfuhrverbot nach Belarus, Myanmar, Libyen, Venezuela, Simbabwe.</p></div>",
+  "docstatus": 0,
+  "doctype": "Dual Use Template",
+  "en": "<div class=\"ql-editor read-mode\"><p>These commodities, technology or software may not be used in the design, development, production or use of nuclear, chemical or biological weapons or missiles. These commodities may not be sold, transferred or exported to the territory of Belarus, Burundi, Central African Republic, Crimea Region (of Ukraine), Cuba, the Democratic Republic of Congo, the Republic of Congo, Donetsk Region (of Ukraine), Guinea-Bissau, Iran, North Korea, Luhansk Region (of Ukraine), Russia, Rwanda, the Republic of South Sudan, the Republic of Sudan, Somalia, Syria, Tanzania, Uganda, Zambia and Zimbabwe. Prohibited for export to Belarus, Myanmar, Libya, Venezuela, Zimbabwe.</p></div>",
+  "modified": "2024-11-28 15:36:14.210295",
+  "name": "Dual-Use (Embargo)",
+  "title": "Dual-Use (Embargo)"
+ },
+ {
+  "de": "<div class=\"ql-editor read-mode\"><p>ECCN: 6A003.b.4 -Genehmigungsreferenz: STA. Diese Güter werden von der US-Regierung kontrolliert und sind nur für die Ausfuhr in das Endbestimmungsland zur Verwendung durch den hier angegebenen Endempfänger oder Endverwender zugelassen. Sie dürfen nicht in ein anderes Land oder an eine andere Person als den/die genehmigten Endempfänger oder Endverwender weiterverkauft, weitergegeben oder anderweitig veräußert werden, und zwar weder in ihrer ursprünglichen Form noch nach Einbau in andere Gegenstände, ohne dass zuvor eine Genehmigung der US-Regierung eingeholt wurde oder dies anderweitig durch US-Gesetze und -Vorschriften genehmigt wurde.</p><p>Diese Waren dürfen nicht an Weißrussland, Burundi, Kambodscha, die Zentralafrikanische Republik, die Krim-Region (der Ukraine), Kuba, die Demokratische Republik Kongo, die Republik Kongo, Guinea-Bissau, Iran, Nordkorea, Ruanda, die Republik Südsudan, die Republik Sudan, Somalia, Syrien, Tansania, Uganda und Simbabwe verkauft, übertragen oder ausgeführt werden. </p><p>Die hier beschriebenen Produkte, Daten und/oder Dienstleistungen fallen unter die Export Administration Regulations (EAR) (15 C.F.R. Sections 730-774). </p><p><br></p></div>",
+  "docstatus": 0,
+  "doctype": "Dual Use Template",
+  "en": "<div class=\"ql-editor read-mode\"><p>ECCN: 6A003.b.4 -Authorization reference: STA. These items are controlled by the U.S. government and authorized for export only to the country of ultimate destination for use by the ultimate consignee or end-user(s) herein identified. They may not be resold, transferred, or otherwise disposed of, to any other country or any person other than the authorized ultimate consignee or end-user(s), either in their original form or after being incorporated into other items, without first obtaining approval from the U .S. government or as otherwise authorized by U.S. law and regulations.</p><p>These commodities may not be sold, transferred, or exported to Belarus, Burundi, Cambodia, Central African Republic, Crimea Region (of Ukraine), Cuba, the Democratic Republic of Congo, the Republic of Congo, Guinea-Bissau, Iran, North Korea, Rwanda, the Republic of South Sudan, the Republic of Sudan, Somalia, Syria, Tanzania, Uganda, and Zimbabwe. </p><p>The products, data and/or services described herein are subject to the Export Administration Regulations (EAR) (15 C.F.R. Sections 730-774).</p><p><br></p></div>",
+  "modified": "2024-11-28 15:34:07.761523",
+  "name": "Dual-Use (ECCN License exception STA)",
+  "title": "Dual-Use (ECCN License exception STA)"
+ },
+ {
+  "de": "<div class=\"ql-editor read-mode\"><blockquote>Wir weisen darauf hin, dass die gelistete IR Kamera als ein \"Gut mit doppeltem Verwendungszweck (Dual Use)\" nach EG-Verordnung Nr. 2023/66 der Exportkontrolle unterliegt. Der Eigentümer muss eine Ausfuhrgenehmigung beim Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA) einholen, bevor er die Güter dauerhaft oder vorübergehend aus der Europäischen Gemeinschaft ausführt. EG-Dual-Use-VO 2023/66 Ausfuhrlistenposition 6A003b4a.</blockquote></div>",
+  "docstatus": 0,
+  "doctype": "Dual Use Template",
+  "en": "<div class=\"ql-editor read-mode\"><p>EC dual use: 6A003.b.4.a. These dual-use items are controlled for export purposes, an export authorization will be required for temporary and permanent export to all destinations outside the EU (Council Regulation (EC) No. 2023/66 refers).</p></div>",
+  "modified": "2024-11-28 15:35:56.054366",
+  "name": "Dual-Use (EG-VO 2023/66)",
+  "title": "Dual-Use (EG-VO 2023/66)"
+ }
+]
