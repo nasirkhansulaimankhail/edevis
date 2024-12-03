@@ -12,6 +12,7 @@
   "event": "Value Change",
   "is_standard": 0,
   "message": "Workflow statuswechsel in {{ doc.name }} ",
+  "message_type": null,
   "method": null,
   "modified": "2024-09-26 15:35:22.181273",
   "module": null,

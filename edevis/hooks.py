@@ -202,6 +202,9 @@ fixtures = [
         "doctype": "Translation"
     },
     {
+        "doctype": "Dual Use Template"
+    },
+    {
         "doctype": "Item", "filters": [
             [
                 "name", "in", [
@@ -317,7 +320,9 @@ jinja = {
         "edevis.custom_scripts.custom_python.quote_methods.quoteitem_is_header",
         "edevis.custom_scripts.custom_python.quote_methods.is_sectionend",
         "edevis.custom_scripts.custom_python.quote_methods.quoteitem_has_discount",
-        "edevis.custom_scripts.custom_python.quote_methods.structurize_quoteitem"
+        "edevis.custom_scripts.custom_python.quote_methods.structurize_quoteitem",
+        "edevis.custom_scripts.custom_python.quote_methods.get_contacts",
+        "edevis.custom_scripts.custom_python.quote_methods.get_dual_use"
     ]
 }
 
