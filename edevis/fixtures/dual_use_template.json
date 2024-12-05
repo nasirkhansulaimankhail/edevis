@@ -1,10 +1,10 @@
 [
  {
-  "de": "<div class=\"ql-editor read-mode\"><p><br></p></div>",
+  "de": "<div class=\"ql-editor read-mode\"><p>These commodities are authorized for export by the US government only to Germany (end user country) for use by ---CUSTOMER--- under license ---LICENSE---. They may not be resold, diverted, transferred, or otherwise be disposed of, to any other country or to any person other than the authorized end-user or consignees, either in their original form or after being incorporated into other end items, without first obtaining approval from the U.S. Department of State or use of an applicable exemption.</p></div>",
   "docstatus": 0,
   "doctype": "Dual Use Template",
   "en": "<div class=\"ql-editor read-mode\"><p>These commodities are authorized for export by the US government only to Germany (end user country) for use by ---CUSTOMER--- under license ---LICENSE---. They may not be resold, diverted, transferred, or otherwise be disposed of, to any other country or to any person other than the authorized end-user or consignees, either in their original form or after being incorporated into other end items, without first obtaining approval from the U.S. Department of State or use of an applicable exemption.</p></div>",
-  "modified": "2024-11-28 15:34:34.334805",
+  "modified": "2024-12-05 08:04:28.633884",
   "name": "Dual-Use (ITAR controlled)",
   "title": "Dual-Use (ITAR controlled)"
  },
