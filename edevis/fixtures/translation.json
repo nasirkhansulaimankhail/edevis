@@ -7,10 +7,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "en",
-  "modified": "2024-11-28 07:39:13.938670",
+  "modified": "2024-12-05 07:50:45.170746",
   "name": "a2276b3e13",
   "source_text": "Commercial contact",
-  "translated_text": "Commercial contact: Thomas Zweschper | Tel.: +49 711 933077-22 | mailto:thomas.zweschper@edevis.de"
+  "translated_text": "Commercial contact"
  },
  {
   "context": null,
@@ -4245,10 +4245,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "de",
-  "modified": "2024-12-03 12:19:30.830822",
+  "modified": "2024-12-05 07:50:38.756662",
   "name": "0d893639c1",
   "source_text": "Commercial contact",
-  "translated_text": "Kaufmännischer Ansprechpartner: Thomas Zweschper | Tel.: +49 711 933077-22 | mailto:thomas.zweschper@edevis.de"
+  "translated_text": "Kaufmännischer Ansprechpartner"
  },
  {
   "context": null,
@@ -4882,10 +4882,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "de",
-  "modified": "2024-11-22 14:49:18.168258",
+  "modified": "2024-12-05 08:08:18.337085",
   "name": "\"1a0f5d68f5\"",
   "source_text": "Supply of spare parts text",
-  "translated_text": "Gewährleistungsfrist: 365 Tage*. Die Gewährleistungsfrist beginnt mit dem Tag der Lieferung und ist unabhängig von der Betriebsdauer. Innerhalb dieser Frist haben wir die Möglichkeit, ein defektes Teil kostenlos zu reparieren oder durch ein einwandfreies zu ersetzen. Wir übernehmen keine Haftung für Schäden, die aus folgenden Gründen entstanden sind: Ungeeignete oder unsachgemäße Verwendung, Eingriffe, Montage oder Inbetriebnahme durch den Käufer oder Dritte, natürliche Abnutzung oder fehlerhafte Behandlung.\n<br><br>\n*Verschleißteile sind von der allgemeinen Gewährleistungsfrist ausgenommen"
+  "translated_text": "Gewährleistungsfrist: 365 Tage*. Die Gewährleistungsfrist beginnt mit dem Tag der Lieferung und ist unabhängig von der Betriebsdauer. Innerhalb dieser Frist haben wir die Möglichkeit, ein defektes Teil kostenlos zu reparieren oder durch ein einwandfreies zu ersetzen. Wir übernehmen keine Haftung für Schäden, die aus folgenden Gründen entstanden sind: Ungeeignete oder unsachgemäße Verwendung, Eingriffe, Montage oder Inbetriebnahme durch den Käufer oder Dritte, natürliche Abnutzung oder fehlerhafte Behandlung."
  },
  {
   "context": null,
@@ -5324,10 +5324,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "en",
-  "modified": "2024-11-22 14:48:49.097700",
+  "modified": "2024-12-05 08:08:27.365672",
   "name": "\"b7fba22522\"",
   "source_text": "Supply of spare parts text",
-  "translated_text": "Warranty period: 365 days*. The warranty period begins on the day of delivery and is independent of the operating time. Within this period we have the option of repairing a defective part free of charge or replacing it with a faultless one. We do not accept any liability for damage caused by the following reasons: unsuitable or improper use, tampering, assembly or commissioning by the purchaser or third parties, natural wear and tear or incorrect handling.\n<br><br>\n*Wearing parts are excluded from the general warranty period"
+  "translated_text": "Warranty period: 365 days*. The warranty period begins on the day of delivery and is independent of the operating time. Within this period we have the option of repairing a defective part free of charge or replacing it with a faultless one. We do not accept any liability for damage caused by the following reasons: unsuitable or improper use, tampering, assembly or commissioning by the purchaser or third parties, natural wear and tear or incorrect handling."
  },
  {
   "context": null,
@@ -5627,5 +5627,18 @@
   "name": "5tockrv87u",
   "source_text": "Free text field for notes that will appear on the offer between the offer number and the item table",
   "translated_text": "Freitextfeld für Vermerke die auf dem Angebot zwischen Angebotsnummer und Item-Tabelle erscheinen werden"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2024-12-05 08:07:49.777232",
+  "name": "rf24h4ogjd",
+  "source_text": "Supply of spare parts",
+  "translated_text": "Warranty"
  }
 ]
