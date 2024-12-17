@@ -1,3 +1,3 @@
 import frappe
 def execute():
-    frappe.db.delete("Letterhead")
+    frappe.db.delete("Letter Head")
