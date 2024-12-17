@@ -5,7 +5,7 @@
   "disabled": 0,
   "docstatus": 0,
   "doctype": "Letter Head",
-  "footer": "<table class=\"myFooterCol\" style=\"width: 100%;\">\n<tbody style=\"font-size: x-small;\">\n<tr>\n    <td>edevis GmbH<br>Mail: info@edevis.de<br>Phone: +49 711 93307720<br><span>&#9872;</span> Wilhelm-Haas-Str. 2 | 70771 Leinfelden-Echterdingen | GERMANY</td>\n    <td>USt-IdNr. DE235286867<br>Sitz der Gesellschaft: Stuttgart<br>Amtsgericht Stuttgart<br>Handelsregister HRB 24826</td>\n    <td>Vertretungsberechtigte Geschäftsführer:<br>Alexander Dillenz, Thomas Zweschper<br>D-U-N-S No. 312519286<br>EORI-No. DE6008518</td>\n    <td>Bank: Kreissparkasse Göppingen<br>BLZ 610 500 00 / Konto 156 101 79<br>IBAN DE50 6105 0000 0015 6101 79<br>BIC GOPSDE6GXXX</td>\n</tr>\n</tbody></table> \n\n",
+  "footer": "<table class=\"myFooterCol\" style=\"width: 100%;\">\n<tbody style=\"font-size: x-small;    vertical-align: text-top;\">\n<tr>\n    <td>\n        <strong>edevis GmbH</strong>\n        <br>\n        Wilhelm-Haas-Straße 2 \n        <br>\n        70771 Leinfelden-Echterdingen\n        <br>\n        Tel: +49 711 933 077-20\n        <br>\n        info@edevis.de\n        <br>\n        www.edevis.de\n        \n        \n    </td>\n    <td>\n        Geschäftsführer:\n        <br>\n        Alexander Dillenz\n        <br>\n        Thomas Zwechper\n    </td>\n    \n   \n    \n    \n    <td>\n        Sitz der Gesellschaft: Leinfelden-Echterdingen\n        <br>\n        Amtsgericht Stuttgart HRB 24826\n        <br>\n        VAT Reg: DE235286867\n        <br>\n        EORI-No. DE6008518\n        <br>\n        D-U-N-S No. 312519286\n        \n    </td>\n    <td>\n        Bank: Kreissparkasse Göppingen\n        <br>\n        IBAN DE50 6105 0000 0015 6101 79\n        <br>\n        BIC GOPSDE6GXXX\n    </td>\n</tr>\n</tbody></table> \n\n",
   "footer_align": null,
   "footer_image": null,
   "footer_image_height": 0.0,
@@ -18,7 +18,7 @@
   "image_width": 0.0,
   "is_default": 1,
   "letter_head_name": "edevis Letterhead",
-  "modified": "2024-12-16 19:59:36.969399",
+  "modified": "2024-12-17 12:25:55.949010",
   "name": "edevis Letterhead",
   "source": "HTML"
  }
