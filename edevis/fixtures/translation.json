@@ -4882,10 +4882,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "de",
-  "modified": "2024-12-05 08:08:18.337085",
+  "modified": "2024-12-17 12:46:01.500880",
   "name": "\"1a0f5d68f5\"",
   "source_text": "Supply of spare parts text",
-  "translated_text": "Gewährleistungsfrist: 365 Tage*. Die Gewährleistungsfrist beginnt mit dem Tag der Lieferung und ist unabhängig von der Betriebsdauer. Innerhalb dieser Frist haben wir die Möglichkeit, ein defektes Teil kostenlos zu reparieren oder durch ein einwandfreies zu ersetzen. Wir übernehmen keine Haftung für Schäden, die aus folgenden Gründen entstanden sind: Ungeeignete oder unsachgemäße Verwendung, Eingriffe, Montage oder Inbetriebnahme durch den Käufer oder Dritte, natürliche Abnutzung oder fehlerhafte Behandlung."
+  "translated_text": "Gewährleistungsfrist: 365 Tage*. Die Gewährleistungsfrist beginnt mit dem Tag der Lieferung und ist unabhängig von der Betriebsdauer. Innerhalb dieser Frist haben wir die Möglichkeit, ein defektes Teil kostenlos zu reparieren oder durch ein einwandfreies zu ersetzen. Wir übernehmen keine Haftung für Schäden, die aus folgenden Gründen entstanden sind: Ungeeignete oder unsachgemäße Verwendung, Eingriffe, Montage oder Inbetriebnahme durch den Käufer oder Dritte, natürliche Abnutzung oder fehlerhafte Behandlung.\n<br><br>\n*davon ausgenommen sind Verschleißteile (wie zum Beispiel Konverter, Booster, Sonotroden, Blitzröhren, Halogen-Leuchtmittel, Laserdioden, ...)."
  },
  {
   "context": null,
@@ -5324,10 +5324,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "en",
-  "modified": "2024-12-05 08:08:27.365672",
+  "modified": "2024-12-17 12:44:57.370863",
   "name": "\"b7fba22522\"",
   "source_text": "Supply of spare parts text",
-  "translated_text": "Warranty period: 365 days*. The warranty period begins on the day of delivery and is independent of the operating time. Within this period we have the option of repairing a defective part free of charge or replacing it with a faultless one. We do not accept any liability for damage caused by the following reasons: unsuitable or improper use, tampering, assembly or commissioning by the purchaser or third parties, natural wear and tear or incorrect handling."
+  "translated_text": "Warranty period: 365 days*. The warranty period begins on the day of delivery and is independent of the operating time. Within this period we have the option of repairing a defective part free of charge or replacing it with a faultless one. We do not accept any liability for damage caused by the following reasons: unsuitable or improper use, tampering, assembly or commissioning by the purchaser or third parties, natural wear and tear or incorrect handling.\n<br>\n<br>\n*with the exception of wearing parts (such as converters, boosters, sonotrodes, flash tubes, halogen lamps, laser diodes, etc.)."
  },
  {
   "context": null,
@@ -5640,5 +5640,18 @@
   "name": "rf24h4ogjd",
   "source_text": "Supply of spare parts",
   "translated_text": "Warranty"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2024-12-17 12:38:31.113469",
+  "name": "di7paf8n58",
+  "source_text": "Warranty Exception",
+  "translated_text": "Gewährleistungseinschränkung"
  }
 ]
