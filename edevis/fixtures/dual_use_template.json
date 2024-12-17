@@ -27,11 +27,11 @@
   "title": "Dual-Use (ECCN License exception STA)"
  },
  {
-  "de": "<div class=\"ql-editor read-mode\"><blockquote>Wir weisen darauf hin, dass die gelistete IR Kamera als ein \"Gut mit doppeltem Verwendungszweck (Dual Use)\" nach EG-Verordnung Nr. 2023/66 der Exportkontrolle unterliegt. Der Eigentümer muss eine Ausfuhrgenehmigung beim Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA) einholen, bevor er die Güter dauerhaft oder vorübergehend aus der Europäischen Gemeinschaft ausführt. EG-Dual-Use-VO 2023/66 Ausfuhrlistenposition 6A003b4a.</blockquote></div>",
+  "de": "<div class=\"ql-editor read-mode\"><p>Wir weisen darauf hin, dass die gelistete IR Kamera als ein \"Gut mit doppeltem Verwendungszweck (Dual Use)\" nach EG-Verordnung Nr. 2023/66 der Exportkontrolle unterliegt. Der Eigentümer muss eine Ausfuhrgenehmigung beim Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA) einholen, bevor er die Güter dauerhaft oder vorübergehend aus der Europäischen Gemeinschaft ausführt. EG-Dual-Use-VO 2023/66 Ausfuhrlistenposition 6A003b4a.</p></div>",
   "docstatus": 0,
   "doctype": "Dual Use Template",
   "en": "<div class=\"ql-editor read-mode\"><p>EC dual use: 6A003.b.4.a. These dual-use items are controlled for export purposes, an export authorization will be required for temporary and permanent export to all destinations outside the EU (Council Regulation (EC) No. 2023/66 refers).</p></div>",
-  "modified": "2024-11-28 15:35:56.054366",
+  "modified": "2024-12-16 12:46:33.384862",
   "name": "Dual-Use (EG-VO 2023/66)",
   "title": "Dual-Use (EG-VO 2023/66)"
  }
