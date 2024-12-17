@@ -4,6 +4,10 @@ app_publisher = "phamos.eu"
 app_description = "ERPNext Enhancement for Edevis"
 app_email = "support@phamos.eu"
 app_license = "mit"
+app_logo_url = "assets/edevis/images/edevis_logo.png"
+website_context = {
+    "logo1": "assets/edevis/images/edevis_logo.png"
+}
 # required_apps = []
 
 # Includes in <head>
