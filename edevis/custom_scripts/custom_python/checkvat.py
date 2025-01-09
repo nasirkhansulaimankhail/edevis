@@ -75,7 +75,7 @@ def checkvat(name, tax_id=None, address=None):
 	doc = frappe.get_doc('Address', address)
 	
 	# ask the German server
-	result = ask_bbf_online(mytin, tax_id, name, doc.city, doc.pincode, doc.address_line1)
+	result = ask_bbf_online(mytin, tax_id, customer.customer_name, doc.city, doc.pincode, doc.address_line1)
 	# evaluate the response
 	testresult = False
 	customer.tax_id_validation_date =  datetime.strptime(result["Datum"], '%d.%m.%Y') 
@@ -91,6 +91,7 @@ def checkvat(name, tax_id=None, address=None):
 	# Remark: some contries doesnn't allo to retrieve company informations using a valid tax id. The result for address and name then will be '---'
 
 	vies_info=''
+	frappe.log_error(frappe.as_json(result, indent=4), "Test")
 	if not testresult and result["ErrorCode"]=='200':
 		response = ask_vies(tax_id)
 		vies_info = f'''
@@ -140,10 +141,18 @@ def checkvat(name, tax_id=None, address=None):
 		</tr>
 		<tr>
 			<td>
-				Company
+				Company ID
 			</td>
 			<td>
 				<span style="color: {'gray' if result['Erg_Name'] == "A" else 'red'};">{name}<b>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Company
+			</td>
+			<td>
+				<span style="color: {'gray' if result['Erg_Name'] == "A" else 'red'};">{customer.customer_name}<b>
 			</td>
 		</tr>
 		<tr>

@@ -2,6 +2,60 @@
  {
   "docstatus": 0,
   "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-08-20 12:26:01.652923",
+  "name": "Merketingverteiler",
+  "style": "",
+  "workflow_state_name": "Merketingverteiler"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-08-20 12:26:25.935063",
+  "name": "In Merketingverteiler geben",
+  "style": "",
+  "workflow_state_name": "In Merketingverteiler geben"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-08-20 12:27:33.178276",
+  "name": "Absage  Merketing",
+  "style": "",
+  "workflow_state_name": "Absage  Merketing"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-08-20 12:27:45.668475",
+  "name": "Freigegeben von ADM",
+  "style": "",
+  "workflow_state_name": "Freigegeben von ADM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-08-20 12:27:50.486502",
+  "name": "Freigegeben von APP",
+  "style": "",
+  "workflow_state_name": "Freigegeben von APP"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-08-20 12:37:57.773295",
+  "name": "In Marketingverteiler geben",
+  "style": "",
+  "workflow_state_name": "In Marketingverteiler geben"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
   "icon": "question-sign",
   "modified": "2024-09-26 13:28:55.914221",
   "name": "Pending",
@@ -39,15 +93,6 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2024-09-26 14:24:22.656473",
-  "name": "Cancellation by ADM",
-  "style": "Danger",
-  "workflow_state_name": "Cancellation by ADM"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
   "modified": "2024-09-26 14:24:11.494571",
   "name": "Marketing mailing list",
   "style": "Success",
@@ -57,10 +102,46 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
+  "modified": "2025-01-09 17:27:02.000017",
+  "name": "Cancellation by APP",
+  "style": "",
+  "workflow_state_name": "Cancellation by APP"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-26 14:24:22.656473",
+  "name": "Cancellation by ADM",
+  "style": "Danger",
+  "workflow_state_name": "Cancellation by ADM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
   "modified": "2024-09-26 14:24:58.101064",
   "name": "Draft",
   "style": "Info",
   "workflow_state_name": "Draft"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-26 14:24:16.042163",
+  "name": "Can be converted to customer",
+  "style": "Success",
+  "workflow_state_name": "Can be converted to customer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-08-20 12:37:12.388893",
+  "name": "Marketingverteiler",
+  "style": "",
+  "workflow_state_name": "Marketingverteiler"
  },
  {
   "docstatus": 0,
@@ -84,9 +165,36 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2024-09-26 14:24:16.042163",
-  "name": "Can be converted to customer",
-  "style": "Success",
-  "workflow_state_name": "Can be converted to customer"
+  "modified": "2024-08-20 12:26:42.879843",
+  "name": "Freizugeben von APP",
+  "style": "",
+  "workflow_state_name": "Freizugeben von APP"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-08-20 12:26:32.406331",
+  "name": "Absage ADM",
+  "style": "",
+  "workflow_state_name": "Absage ADM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-08-20 12:27:07.670085",
+  "name": "Kann zu Kunde umgewandelt werden",
+  "style": "",
+  "workflow_state_name": "Kann zu Kunde umgewandelt werden"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-08-20 12:26:54.422991",
+  "name": "Freizugeben von ADM",
+  "style": "",
+  "workflow_state_name": "Freizugeben von ADM"
  }
 ]

@@ -9,7 +9,7 @@ frappe.ui.form.on("Customer", {
       frappe.call({
         method: "edevis.custom_scripts.custom_python.checkvat.checkvat",
         args: {
-          name: frm.doc.customer_name,
+          name: frm.doc.name,
           tax_id: frm.doc.tax_id,
           address: frm.doc.customer_primary_address
         },
