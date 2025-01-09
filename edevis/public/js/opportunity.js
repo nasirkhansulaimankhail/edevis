@@ -96,3 +96,46 @@ frappe.ui.form.on("Opportunity", {
     }
   },
 });
+
+
+
+frappe.ui.form.on("Opportunity Item", {
+	calculate: function (frm, cdt, cdn) {
+		let row = frappe.get_doc(cdt, cdn);
+		frappe.model.set_value(cdt, cdn, "amount", flt(row.qty) * flt(row.rate));
+		frappe.model.set_value(cdt, cdn, "base_rate", flt(frm.doc.conversion_rate) * flt(row.rate));
+		frappe.model.set_value(cdt, cdn, "base_amount", flt(frm.doc.conversion_rate) * flt(row.amount));
+		frm.trigger("calculate_total");
+	},
+	qty: function (frm, cdt, cdn) {
+		frm.trigger("calculate", cdt, cdn);
+	},
+	rate: function (frm, cdt, cdn) {
+		frm.trigger("calculate", cdt, cdn);
+	},
+  item_code: function(frm, cdt, cdn){
+    var item = frappe.get_doc(cdt, cdn);
+    var price_list = frm.doc.custom_price_list; // Get the selected price list from the Opportunity DocType
+    var item_code = item.item_code;
+    if(!frm.doc.custom_price_list){
+      frappe.msgprint("Please setup price list first")
+      return
+    }
+    frappe.call({
+        method: 'frappe.client.get_value',
+        args: {
+            doctype: 'Item Price',
+            filters: {
+                item_code: item_code,
+                price_list: price_list
+            },
+            fieldname: 'price_list_rate'
+        },
+        callback: function(response) {
+            if (response && response.message) {
+                frappe.model.set_value(cdt, cdn, 'rate', response.message.price_list_rate);
+            }
+        }
+    });
+  }
+});

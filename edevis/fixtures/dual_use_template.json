@@ -18,15 +18,6 @@
   "title": "Dual-Use (Embargo)"
  },
  {
-  "de": "<div class=\"ql-editor read-mode\"><p>ECCN: 6A003.b.4 -Genehmigungsreferenz: STA. Diese Güter werden von der US-Regierung kontrolliert und sind nur für die Ausfuhr in das Endbestimmungsland zur Verwendung durch den hier angegebenen Endempfänger oder Endverwender zugelassen. Sie dürfen nicht in ein anderes Land oder an eine andere Person als den/die genehmigten Endempfänger oder Endverwender weiterverkauft, weitergegeben oder anderweitig veräußert werden, und zwar weder in ihrer ursprünglichen Form noch nach Einbau in andere Gegenstände, ohne dass zuvor eine Genehmigung der US-Regierung eingeholt wurde oder dies anderweitig durch US-Gesetze und -Vorschriften genehmigt wurde.</p><p>Diese Waren dürfen nicht an Weißrussland, Burundi, Kambodscha, die Zentralafrikanische Republik, die Krim-Region (der Ukraine), Kuba, die Demokratische Republik Kongo, die Republik Kongo, Guinea-Bissau, Iran, Nordkorea, Ruanda, die Republik Südsudan, die Republik Sudan, Somalia, Syrien, Tansania, Uganda und Simbabwe verkauft, übertragen oder ausgeführt werden. </p><p>Die hier beschriebenen Produkte, Daten und/oder Dienstleistungen fallen unter die Export Administration Regulations (EAR) (15 C.F.R. Sections 730-774). </p><p><br></p></div>",
-  "docstatus": 0,
-  "doctype": "Dual Use Template",
-  "en": "<div class=\"ql-editor read-mode\"><p>ECCN: 6A003.b.4 -Authorization reference: STA. These items are controlled by the U.S. government and authorized for export only to the country of ultimate destination for use by the ultimate consignee or end-user(s) herein identified. They may not be resold, transferred, or otherwise disposed of, to any other country or any person other than the authorized ultimate consignee or end-user(s), either in their original form or after being incorporated into other items, without first obtaining approval from the U .S. government or as otherwise authorized by U.S. law and regulations.</p><p>These commodities may not be sold, transferred, or exported to Belarus, Burundi, Cambodia, Central African Republic, Crimea Region (of Ukraine), Cuba, the Democratic Republic of Congo, the Republic of Congo, Guinea-Bissau, Iran, North Korea, Rwanda, the Republic of South Sudan, the Republic of Sudan, Somalia, Syria, Tanzania, Uganda, and Zimbabwe. </p><p>The products, data and/or services described herein are subject to the Export Administration Regulations (EAR) (15 C.F.R. Sections 730-774).</p><p><br></p></div>",
-  "modified": "2024-11-28 15:34:07.761523",
-  "name": "Dual-Use (ECCN License exception STA)",
-  "title": "Dual-Use (ECCN License exception STA)"
- },
- {
   "de": "<div class=\"ql-editor read-mode\"><p>Wir weisen darauf hin, dass die gelistete IR Kamera als ein \"Gut mit doppeltem Verwendungszweck (Dual Use)\" nach EG-Verordnung Nr. 2023/66 der Exportkontrolle unterliegt. Der Eigentümer muss eine Ausfuhrgenehmigung beim Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA) einholen, bevor er die Güter dauerhaft oder vorübergehend aus der Europäischen Gemeinschaft ausführt. EG-Dual-Use-VO 2023/66 Ausfuhrlistenposition 6A003b4a.</p></div>",
   "docstatus": 0,
   "doctype": "Dual Use Template",
@@ -34,5 +25,14 @@
   "modified": "2024-12-16 12:46:33.384862",
   "name": "Dual-Use (EG-VO 2023/66)",
   "title": "Dual-Use (EG-VO 2023/66)"
+ },
+ {
+  "de": "<div class=\"ql-editor read-mode\"><p>ECCN: 6A003.b.4 -Genehmigungsreferenz: STA. Diese Güter werden von der US-Regierung kontrolliert und sind nur für die Ausfuhr in das Endbestimmungsland zur Verwendung durch den hier angegebenen Endempfänger oder Endverwender zugelassen. Sie dürfen nicht in ein anderes Land oder an eine andere Person als den/die genehmigten Endempfänger oder Endverwender weiterverkauft, weitergegeben oder anderweitig veräußert werden, und zwar weder in ihrer ursprünglichen Form noch nach Einbau in andere Gegenstände, ohne dass zuvor eine Genehmigung der US-Regierung eingeholt wurde oder dies anderweitig durch US-Gesetze und -Vorschriften genehmigt wurde.</p><p>Diese Waren dürfen nicht an Weißrussland, Burundi, Kambodscha, die Zentralafrikanische Republik, die Krim-Region (der Ukraine), Kuba, die Demokratische Republik Kongo, die Republik Kongo, Guinea-Bissau, Iran, Nordkorea, Ruanda, die Republik Südsudan, die Republik Sudan, Somalia, Syrien, Tansania, Uganda und Simbabwe verkauft, übertragen oder ausgeführt werden. </p><p>Die hier beschriebenen Produkte, Daten und/oder Dienstleistungen fallen unter die Export Administration Regulations (EAR) (15 C.F.R. Sections 730-774). </p><p><br></p></div>",
+  "docstatus": 0,
+  "doctype": "Dual Use Template",
+  "en": "<div class=\"ql-editor read-mode\"><p>ECCN: 6A003.b.4 -Authorization reference: STA. These items are controlled by the U.S. government and authorized for export only to the country of ultimate destination for use by the ultimate consignee or end-user(s) herein identified. They may not be resold, transferred, or otherwise disposed of, to any other country or any person other than the authorized ultimate consignee or end-user(s), either in their original form or after being incorporated into other items, without first obtaining approval from the U .S. government or as otherwise authorized by U.S. law and regulations.</p><p>These commodities may not be sold, transferred, or exported to Belarus, Burundi, Cambodia, Central African Republic, Crimea Region (of Ukraine), Cuba, the Democratic Republic of Congo, the Republic of Congo, Guinea-Bissau, Iran, North Korea, Rwanda, the Republic of South Sudan, the Republic of Sudan, Somalia, Syria, Tanzania, Uganda, and Zimbabwe. </p><p>The products, data and/or services described herein are subject to the Export Administration Regulations (EAR) (15 C.F.R. Sections 730-774).</p><p><br></p></div>",
+  "modified": "2024-11-28 15:34:07.761523",
+  "name": "Dual-Use (ECCN License exception STA)",
+  "title": "Dual-Use (ECCN License exception STA)"
  }
 ]

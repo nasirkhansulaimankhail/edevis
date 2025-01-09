@@ -1,0 +1,2942 @@
+[
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-20 13:48:09.234925",
+  "name": "q65sjq95u8",
+  "permitted_roles": [
+   {
+    "parent": "q65sjq95u8",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00009",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Entwurf"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-20 13:48:55.396873",
+  "name": "q6kav1vfp8",
+  "permitted_roles": [
+   {
+    "parent": "q6kav1vfp8",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00009",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Freizugeben von ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-20 13:49:16.865394",
+  "name": "q6r0p82h1a",
+  "permitted_roles": [
+   {
+    "parent": "q6r0p82h1a",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00009",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Absage ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-20 13:49:43.291524",
+  "name": "q738flqp73",
+  "permitted_roles": [
+   {
+    "parent": "q738flqp73",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00009",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Freizugeben von APP"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-20 13:50:52.579095",
+  "name": "q7ot7trqah",
+  "permitted_roles": [
+   {
+    "parent": "q7ot7trqah",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00010",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Entwurf"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-21 09:46:50.507270",
+  "name": "g4h939skec",
+  "permitted_roles": [
+   {
+    "parent": "g4h939skec",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00010",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Freizugeben von ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-21 09:46:51.713545",
+  "name": "g4hldsb6oq",
+  "permitted_roles": [
+   {
+    "parent": "g4hldsb6oq",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00010",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Freizugeben von APP"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-21 18:05:51.773325",
+  "name": "p8tt7umf7s",
+  "permitted_roles": [
+   {
+    "parent": "p8tt7umf7s",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00011",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Entwurf"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-21 18:06:32.682869",
+  "name": "p9amsn31f0",
+  "permitted_roles": [
+   {
+    "parent": "p9amsn31f0",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00011",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Freizugeben von ADM"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-22 18:24:43.476940",
+  "name": "jvnijnedfn",
+  "permitted_roles": [
+   {
+    "parent": "jvnijnedfn",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00012",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Entwurf"
+ },
+ {
+  "completed_by": "jacqueline.boockmann@edevis.de",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-26 10:39:16.064673",
+  "name": "ku087vu2ni",
+  "permitted_roles": [
+   {
+    "parent": "ku087vu2ni",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00013",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Entwurf"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-26 10:48:07.000789",
+  "name": "l366l7q3eh",
+  "permitted_roles": [
+   {
+    "parent": "l366l7q3eh",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00013",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Freizugeben von ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-27 12:21:56.401939",
+  "name": "h5tcmmbhdl",
+  "permitted_roles": [
+   {
+    "parent": "h5tcmmbhdl",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00013",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Freizugeben von APP"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-27 12:22:32.740713",
+  "name": "h68nf11er7",
+  "permitted_roles": [
+   {
+    "parent": "h68nf11er7",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00004",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Entwurf"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-27 12:22:51.039112",
+  "name": "h6ee6960cc",
+  "permitted_roles": [
+   {
+    "parent": "h6ee6960cc",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00004",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Freizugeben von ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-27 12:53:14.491445",
+  "name": "ho882krbp1",
+  "permitted_roles": [
+   {
+    "parent": "ho882krbp1",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00014",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Entwurf"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-27 12:54:55.248080",
+  "name": "hp7o3jpjr6",
+  "permitted_roles": [
+   {
+    "parent": "hp7o3jpjr6",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00014",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Freizugeben von ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-27 13:11:43.255273",
+  "name": "i32ov4c0h1",
+  "permitted_roles": [
+   {
+    "parent": "i32ov4c0h1",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00015",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Entwurf"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-27 13:12:21.085460",
+  "name": "i3eimariaa",
+  "permitted_roles": [
+   {
+    "parent": "i3eimariaa",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00015",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Freizugeben von ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-27 13:12:55.099526",
+  "name": "i3p7plh1np",
+  "permitted_roles": [
+   {
+    "parent": "i3p7plh1np",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00015",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Freizugeben von APP"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-27 13:19:49.196306",
+  "name": "i7qk3ci49s",
+  "permitted_roles": [
+   {
+    "parent": "i7qk3ci49s",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00008",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Freizugeben von ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-27 13:19:50.668135",
+  "name": "i7r2ndvlqt",
+  "permitted_roles": [
+   {
+    "parent": "i7r2ndvlqt",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00008",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Absage ADM"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-27 13:37:33.385155",
+  "name": "ii754ae8fk",
+  "permitted_roles": [
+   {
+    "parent": "ii754ae8fk",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00016",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Entwurf"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-27 15:03:54.639280",
+  "name": "k4qakc81s1",
+  "permitted_roles": [
+   {
+    "parent": "k4qakc81s1",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00017",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Entwurf"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-27 16:40:54.223203",
+  "name": "ltku0inm62",
+  "permitted_roles": [
+   {
+    "parent": "ltku0inm62",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00018",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Entwurf"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-08-30 14:17:40.400856",
+  "name": "2cvccs0cq5",
+  "permitted_roles": [
+   {
+    "parent": "2cvccs0cq5",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00019",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Entwurf"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-02 10:06:14.927025",
+  "name": "cst53kb524",
+  "permitted_roles": [
+   {
+    "parent": "cst53kb524",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00020",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Entwurf"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-02 10:53:20.854609",
+  "name": "dog8gjptcm",
+  "permitted_roles": [
+   {
+    "parent": "dog8gjptcm",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00021",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Entwurf"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-02 10:58:52.892743",
+  "name": "dro0g48tns",
+  "permitted_roles": [
+   {
+    "parent": "dro0g48tns",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00022",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Entwurf"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-02 11:00:28.288327",
+  "name": "dslqne2kkk",
+  "permitted_roles": [
+   {
+    "parent": "dslqne2kkk",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00021",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Freizugeben von ADM"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-02 12:21:28.115494",
+  "name": "fc4hrl23q4",
+  "permitted_roles": [
+   {
+    "parent": "fc4hrl23q4",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00022",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Freizugeben von ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-02 18:32:45.333384",
+  "name": "m5m5cjid75",
+  "permitted_roles": [
+   {
+    "parent": "m5m5cjid75",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00023",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-02 18:34:42.378965",
+  "name": "m6qngqvhb9",
+  "permitted_roles": [
+   {
+    "parent": "m6qngqvhb9",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00023",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-02 18:34:45.223814",
+  "name": "m6rko6b8le",
+  "permitted_roles": [
+   {
+    "parent": "m6rko6b8le",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00023",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-03 09:26:36.928268",
+  "name": "6he107e5ol",
+  "permitted_roles": [
+   {
+    "parent": "6he107e5ol",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00024",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-03 09:28:07.088376",
+  "name": "6ia6k3g4q4",
+  "permitted_roles": [
+   {
+    "parent": "6ia6k3g4q4",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00024",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-03 09:28:41.939308",
+  "name": "6il3o4ucvu",
+  "permitted_roles": [
+   {
+    "parent": "6il3o4ucvu",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00024",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-03 09:33:51.810543",
+  "name": "6llumc5lav",
+  "permitted_roles": [
+   {
+    "parent": "6llumc5lav",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00025",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-03 09:33:55.862061",
+  "name": "6ln6283l72",
+  "permitted_roles": [
+   {
+    "parent": "6ln6283l72",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00025",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-03 09:34:08.144584",
+  "name": "6lr1mfv19u",
+  "permitted_roles": [
+   {
+    "parent": "6lr1mfv19u",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00025",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-03 09:38:25.264424",
+  "name": "6obc4g3ia9",
+  "permitted_roles": [
+   {
+    "parent": "6obc4g3ia9",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00026",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-03 09:38:58.084332",
+  "name": "6olkvcmfpa",
+  "permitted_roles": [
+   {
+    "parent": "6olkvcmfpa",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00026",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-03 09:39:00.628273",
+  "name": "6omet8fjmf",
+  "permitted_roles": [
+   {
+    "parent": "6omet8fjmf",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00026",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-03 11:01:42.957349",
+  "name": "8955bi9kbj",
+  "permitted_roles": [
+   {
+    "parent": "8955bi9kbj",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00027",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-03 11:01:45.979265",
+  "name": "8963ibtvok",
+  "permitted_roles": [
+   {
+    "parent": "8963ibtvok",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00027",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-03 11:01:47.800987",
+  "name": "896mpvmajt",
+  "permitted_roles": [
+   {
+    "parent": "896mpvmajt",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00027",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "jacqueline.boockmann@edevis.de",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-03 11:24:44.349692",
+  "name": "8mkr6h3cbp",
+  "permitted_roles": [
+   {
+    "parent": "8mkr6h3cbp",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00028",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "jacqueline.boockmann@edevis.de",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-03 11:25:27.484235",
+  "name": "8n2ant75ho",
+  "permitted_roles": [
+   {
+    "parent": "8n2ant75ho",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00028",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "jacqueline.boockmann@edevis.de",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-03 11:25:42.626098",
+  "name": "8n723dqsgc",
+  "permitted_roles": [
+   {
+    "parent": "8n723dqsgc",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00028",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-03 11:25:49.410836",
+  "name": "8n96un340f",
+  "permitted_roles": [
+   {
+    "parent": "8n96un340f",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00028",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Cancellation by ADM"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-04 13:03:58.566385",
+  "name": "4shh0mcack",
+  "permitted_roles": [
+   {
+    "parent": "4shh0mcack",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00029",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-04 13:04:01.883404",
+  "name": "4siipd8jb0",
+  "permitted_roles": [
+   {
+    "parent": "4siipd8jb0",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00029",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-04 13:04:04.867989",
+  "name": "4sjga8klba",
+  "permitted_roles": [
+   {
+    "parent": "4sjga8klba",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00029",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-04 17:57:19.357446",
+  "name": "a8dpm3ao2u",
+  "permitted_roles": [
+   {
+    "parent": "a8dpm3ao2u",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00030",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-04 17:57:21.932182",
+  "name": "a8ejg6v5c3",
+  "permitted_roles": [
+   {
+    "parent": "a8ejg6v5c3",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00030",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-04 17:57:23.895666",
+  "name": "a8f6v5o6rt",
+  "permitted_roles": [
+   {
+    "parent": "a8f6v5o6rt",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00030",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-10 13:39:03.327937",
+  "name": "3nj9gjkll3",
+  "permitted_roles": [
+   {
+    "parent": "3nj9gjkll3",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00031",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-10 13:39:08.753025",
+  "name": "3nkvhsvori",
+  "permitted_roles": [
+   {
+    "parent": "3nkvhsvori",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00031",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-10 13:39:13.501536",
+  "name": "3nmfffud6e",
+  "permitted_roles": [
+   {
+    "parent": "3nmfffud6e",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00031",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-12 15:50:55.529784",
+  "name": "qsbr268be0",
+  "permitted_roles": [
+   {
+    "parent": "qsbr268be0",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00032",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-12 16:03:54.442700",
+  "name": "r3v8hjrmv8",
+  "permitted_roles": [
+   {
+    "parent": "r3v8hjrmv8",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00033",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-12 16:03:56.197015",
+  "name": "r3vqg4o13v",
+  "permitted_roles": [
+   {
+    "parent": "r3vqg4o13v",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00033",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-12 16:03:57.762263",
+  "name": "r409106oku",
+  "permitted_roles": [
+   {
+    "parent": "r409106oku",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00033",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "jacqueline.boockmann@edevis.de",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-18 10:36:31.327429",
+  "name": "jakplpg1na",
+  "permitted_roles": [
+   {
+    "parent": "jakplpg1na",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00034",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "jacqueline.boockmann@edevis.de",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-18 10:44:32.419326",
+  "name": "jfb4igrrlj",
+  "permitted_roles": [
+   {
+    "parent": "jfb4igrrlj",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00034",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "jacqueline.boockmann@edevis.de",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-18 10:48:22.997353",
+  "name": "jhj6mvpqtt",
+  "permitted_roles": [
+   {
+    "parent": "jhj6mvpqtt",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00034",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-19 14:25:16.977101",
+  "name": "hse15o9rqc",
+  "permitted_roles": [
+   {
+    "parent": "hse15o9rqc",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00035",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-19 14:25:26.446591",
+  "name": "hsh0bp37uq",
+  "permitted_roles": [
+   {
+    "parent": "hsh0bp37uq",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00035",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-19 14:25:53.591617",
+  "name": "hspf1os79d",
+  "permitted_roles": [
+   {
+    "parent": "hspf1os79d",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00035",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-19 14:29:50.767653",
+  "name": "hv3jbplv6p",
+  "permitted_roles": [
+   {
+    "parent": "hv3jbplv6p",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00036",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-19 14:29:56.190991",
+  "name": "hv59q0hj2f",
+  "permitted_roles": [
+   {
+    "parent": "hv59q0hj2f",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00036",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-19 14:30:03.103190",
+  "name": "hv7fofghaa",
+  "permitted_roles": [
+   {
+    "parent": "hv7fofghaa",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00036",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Cancellation by ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-19 14:31:27.787273",
+  "name": "i01tbbrop1",
+  "permitted_roles": [
+   {
+    "parent": "i01tbbrop1",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00037",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-19 14:31:30.370850",
+  "name": "i02ni5ano9",
+  "permitted_roles": [
+   {
+    "parent": "i02ni5ano9",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00037",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-19 14:31:33.822888",
+  "name": "i03qvpq3uq",
+  "permitted_roles": [
+   {
+    "parent": "i03qvpq3uq",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00037",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-19 14:31:36.808265",
+  "name": "i04o34h593",
+  "permitted_roles": [
+   {
+    "parent": "i04o34h593",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00037",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Cancellation by ADM"
+ },
+ {
+  "completed_by": "jacqueline.boockmann@edevis.de",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-19 14:57:23.269433",
+  "name": "if805gs34g",
+  "permitted_roles": [
+   {
+    "parent": "if805gs34g",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00038",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "jacqueline.boockmann@edevis.de",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-19 14:57:26.631195",
+  "name": "if92nnu9n6",
+  "permitted_roles": [
+   {
+    "parent": "if92nnu9n6",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00038",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "jacqueline.boockmann@edevis.de",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-19 14:57:31.544939",
+  "name": "ifajj3mued",
+  "permitted_roles": [
+   {
+    "parent": "ifajj3mued",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00038",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "jacqueline.boockmann@edevis.de",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-23 10:34:55.443993",
+  "name": "n4eqgotmq2",
+  "permitted_roles": [
+   {
+    "parent": "n4eqgotmq2",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00039",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "jacqueline.boockmann@edevis.de",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-23 10:37:46.243030",
+  "name": "n646agd2c9",
+  "permitted_roles": [
+   {
+    "parent": "n646agd2c9",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00039",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "jacqueline.boockmann@edevis.de",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-23 10:40:33.861223",
+  "name": "n7oi9v39vs",
+  "permitted_roles": [
+   {
+    "parent": "n7oi9v39vs",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00039",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-24 16:57:22.333366",
+  "name": "og9n64ui2c",
+  "permitted_roles": [
+   {
+    "parent": "og9n64ui2c",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00040",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-24 16:57:26.787027",
+  "name": "ogb3o292rs",
+  "permitted_roles": [
+   {
+    "parent": "ogb3o292rs",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00040",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-09-24 16:57:28.386972",
+  "name": "ogbj5a4egf",
+  "permitted_roles": [
+   {
+    "parent": "ogbj5a4egf",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00040",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "ina.dillenz@edevis.de",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-09 10:19:51.297181",
+  "name": "snk9ocvseq",
+  "permitted_roles": [
+   {
+    "parent": "snk9ocvseq",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00041",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "ina.dillenz@edevis.de",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-09 10:20:09.671272",
+  "name": "snq0uruccd",
+  "permitted_roles": [
+   {
+    "parent": "snq0uruccd",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00041",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "ina.dillenz@edevis.de",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-09 10:20:43.781120",
+  "name": "so4l0mmrdb",
+  "permitted_roles": [
+   {
+    "parent": "so4l0mmrdb",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00041",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-09 12:07:02.092938",
+  "name": "umdsgj8vve",
+  "permitted_roles": [
+   {
+    "parent": "umdsgj8vve",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00042",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-09 12:07:08.095772",
+  "name": "umfpr0crah",
+  "permitted_roles": [
+   {
+    "parent": "umfpr0crah",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00042",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-09 12:07:12.855357",
+  "name": "umh8p6lhuk",
+  "permitted_roles": [
+   {
+    "parent": "umh8p6lhuk",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00042",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-09 12:17:52.354252",
+  "name": "usp39jq5nc",
+  "permitted_roles": [
+   {
+    "parent": "usp39jq5nc",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00043",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-09 12:17:55.487880",
+  "name": "usq27em0qe",
+  "permitted_roles": [
+   {
+    "parent": "usq27em0qe",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00043",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-09 12:17:57.261804",
+  "name": "usqk3esrmb",
+  "permitted_roles": [
+   {
+    "parent": "usqk3esrmb",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00043",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-09 12:31:01.867887",
+  "name": "v4fq0r16dr",
+  "permitted_roles": [
+   {
+    "parent": "v4fq0r16dr",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00044",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-09 12:31:04.621314",
+  "name": "v4gmrh1g4i",
+  "permitted_roles": [
+   {
+    "parent": "v4gmrh1g4i",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00044",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-09 12:31:06.096238",
+  "name": "v4h5307ljl",
+  "permitted_roles": [
+   {
+    "parent": "v4h5307ljl",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00044",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-09 14:00:37.377962",
+  "name": "0ovlf8qrtr",
+  "permitted_roles": [
+   {
+    "parent": "0ovlf8qrtr",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00045",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-09 14:00:39.580425",
+  "name": "0p0b8r6e1o",
+  "permitted_roles": [
+   {
+    "parent": "0p0b8r6e1o",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00045",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-09 14:00:41.317983",
+  "name": "0p0tsuu9gl",
+  "permitted_roles": [
+   {
+    "parent": "0p0tsuu9gl",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00045",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-09 14:13:12.578772",
+  "name": "10blt3nf0e",
+  "permitted_roles": [
+   {
+    "parent": "10blt3nf0e",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00046",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-09 14:13:16.334057",
+  "name": "10cr69c5ul",
+  "permitted_roles": [
+   {
+    "parent": "10cr69c5ul",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00046",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-09 14:13:17.888923",
+  "name": "10da81qe89",
+  "permitted_roles": [
+   {
+    "parent": "10da81qe89",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00046",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-11 17:52:29.348696",
+  "name": "pob5qhdbf9",
+  "permitted_roles": [
+   {
+    "parent": "pob5qhdbf9",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00047",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-11 17:52:31.326091",
+  "name": "pobp6js74r",
+  "permitted_roles": [
+   {
+    "parent": "pobp6js74r",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00047",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-11 17:52:34.233759",
+  "name": "pocmtjldqd",
+  "permitted_roles": [
+   {
+    "parent": "pocmtjldqd",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00047",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-15 17:07:08.553480",
+  "name": "2cotsi16sv",
+  "permitted_roles": [
+   {
+    "parent": "2cotsi16sv",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00048",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-15 17:07:12.032850",
+  "name": "2cq0n6fa0t",
+  "permitted_roles": [
+   {
+    "parent": "2cq0n6fa0t",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00048",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "support@phamos.eu",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-15 17:07:14.921673",
+  "name": "2cqtpo4iog",
+  "permitted_roles": [
+   {
+    "parent": "2cqtpo4iog",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00048",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "ina.dillenz@edevis.de",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-29 13:36:22.756380",
+  "name": "gou3j7kc9a",
+  "permitted_roles": [
+   {
+    "parent": "gou3j7kc9a",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "Firma Risse in Kolben",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "ina.dillenz@edevis.de",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-29 13:41:59.034364",
+  "name": "gs764creoj",
+  "permitted_roles": [
+   {
+    "parent": "gs764creoj",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "Firma Risse in Kolben",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "ina.dillenz@edevis.de",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-29 13:44:26.654875",
+  "name": "gtlaaiqpuc",
+  "permitted_roles": [
+   {
+    "parent": "gtlaaiqpuc",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "Firma Risse in Kolben",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "ina.dillenz@edevis.de",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-30 10:57:24.475035",
+  "name": "87hcsqg1r5",
+  "permitted_roles": [
+   {
+    "parent": "87hcsqg1r5",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00050",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "ina.dillenz@edevis.de",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-30 10:57:43.404862",
+  "name": "87nagvtlou",
+  "permitted_roles": [
+   {
+    "parent": "87nagvtlou",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00050",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "ina.dillenz@edevis.de",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-30 10:57:54.955060",
+  "name": "87qtjh3aq2",
+  "permitted_roles": [
+   {
+    "parent": "87qtjh3aq2",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00050",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Cancellation by ADM"
+ },
+ {
+  "completed_by": "ina.dillenz@edevis.de",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-30 10:59:47.861894",
+  "name": "88u6l44tqt",
+  "permitted_roles": [
+   {
+    "parent": "88u6l44tqt",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00051",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "ina.dillenz@edevis.de",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-30 10:59:54.719536",
+  "name": "890bp6o9dm",
+  "permitted_roles": [
+   {
+    "parent": "890bp6o9dm",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00051",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "ina.dillenz@edevis.de",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-30 10:59:58.310992",
+  "name": "891funv0g2",
+  "permitted_roles": [
+   {
+    "parent": "891funv0g2",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00051",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "ina.dillenz@edevis.de",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-30 11:00:06.135125",
+  "name": "893tho7sdm",
+  "permitted_roles": [
+   {
+    "parent": "893tho7sdm",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00051",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Cancellation by ADM"
+ },
+ {
+  "completed_by": "ina.dillenz@edevis.de",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-30 11:01:57.442403",
+  "name": "8a6mkmotfh",
+  "permitted_roles": [
+   {
+    "parent": "8a6mkmotfh",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00052",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "ina.dillenz@edevis.de",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-30 11:02:03.605727",
+  "name": "8a8ktu6crt",
+  "permitted_roles": [
+   {
+    "parent": "8a8ktu6crt",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00052",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "ina.dillenz@edevis.de",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-30 11:02:10.158282",
+  "name": "8aale2brvs",
+  "permitted_roles": [
+   {
+    "parent": "8aale2brvs",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00052",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-30 11:02:18.450924",
+  "name": "8ad8u4k7vf",
+  "permitted_roles": [
+   {
+    "parent": "8ad8u4k7vf",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00052",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Cancellation by ADM"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-10-30 11:58:38.442313",
+  "name": "9bdgp46mce",
+  "permitted_roles": [
+   {
+    "parent": "9bdgp46mce",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2024-00053",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "jacqueline.boockmann@edevis.de",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-12-20 13:31:53.786464",
+  "name": "no1apbc5se",
+  "permitted_roles": [
+   {
+    "parent": "no1apbc5se",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "Test name Anpassen",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "jacqueline.boockmann@edevis.de",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-12-20 13:36:28.578290",
+  "name": "i3frothl3u",
+  "permitted_roles": [
+   {
+    "parent": "i3frothl3u",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "Test name Anpassen",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "jacqueline.boockmann@edevis.de",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-12-20 13:36:34.080966",
+  "name": "5f9hnnn01l",
+  "permitted_roles": [
+   {
+    "parent": "5f9hnnn01l",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "Test name Anpassen",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2024-12-20 13:37:17.451728",
+  "name": "blvq29jej4",
+  "permitted_roles": [
+   {
+    "parent": "blvq29jej4",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "Test name Anpassen",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Cancellation by ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-01-09 07:59:00.987836",
+  "name": "qqo5li7tc4",
+  "permitted_roles": [
+   {
+    "parent": "qqo5li7tc4",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2025-00001",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-01-09 07:59:16.012791",
+  "name": "70hh7qto0m",
+  "permitted_roles": [
+   {
+    "parent": "70hh7qto0m",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2025-00001",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-01-09 07:59:19.069204",
+  "name": "rj54b27997",
+  "permitted_roles": [
+   {
+    "parent": "rj54b27997",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2025-00001",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-01-09 08:06:08.446579",
+  "name": "peurprl4ug",
+  "permitted_roles": [
+   {
+    "parent": "peurprl4ug",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2025-00002",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-01-09 08:06:15.299233",
+  "name": "de463sjs9f",
+  "permitted_roles": [
+   {
+    "parent": "de463sjs9f",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2025-00002",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-01-09 08:06:17.681933",
+  "name": "q0o1ko5vh2",
+  "permitted_roles": [
+   {
+    "parent": "q0o1ko5vh2",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2025-00002",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-01-09 17:24:42.549840",
+  "name": "cplr9c12ua",
+  "permitted_roles": [
+   {
+    "parent": "cplr9c12ua",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2025-00003",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-01-09 17:29:30.999009",
+  "name": "sq92mtdrr4",
+  "permitted_roles": [
+   {
+    "parent": "sq92mtdrr4",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2025-00003",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-01-09 17:29:35.742268",
+  "name": "gb4moid6o9",
+  "permitted_roles": [
+   {
+    "parent": "gb4moid6o9",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2025-00003",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-01-09 17:30:49.389524",
+  "name": "mmuf3mtpoh",
+  "permitted_roles": [
+   {
+    "parent": "mmuf3mtpoh",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2025-00004",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 ADM",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-01-09 17:31:01.435139",
+  "name": "gg9jnvm004",
+  "permitted_roles": [
+   {
+    "parent": "gg9jnvm004",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 ADM"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2025-00004",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by ADM"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "00201 APP",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-01-09 17:31:02.527439",
+  "name": "jgbn7aofrp",
+  "permitted_roles": [
+   {
+    "parent": "jgbn7aofrp",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "00201 APP"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2025-00004",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To be released by APP"
+ }
+]

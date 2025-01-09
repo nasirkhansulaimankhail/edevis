@@ -124,7 +124,8 @@ doctype_js = {
 # Override standard doctype classes
 
 override_doctype_class = {
-	"Customer": "edevis.document_controllers.customer.Customer"
+	"Customer": "edevis.document_controllers.customer.Customer",
+    "Lead": "edevis.document_controllers.lead.Lead"
 }
 
 # Document Events
@@ -161,8 +162,12 @@ fixtures = [
             ]
         ]
     ]},
+    
     {
 		"doctype": "Workflow State"
+    },
+    {
+		"doctype": "Workflow Action"
     },
     {"dt": "Role", "filters": [
         [
