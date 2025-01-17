@@ -16,12 +16,12 @@ frappe.ui.form.on("Customer", {
         freeze: true,
         freeze_message: __('Retrieving VAT Information from server...'),
         callback: function(r) {
+          frm.refresh_field("tax_id_validation_result");
           // frappe.msgprint (r)
         }
       });
     }, __("Actions"));
   },
-
   setup_opportunity_button(frm) {
     frm
       .add_custom_button(

@@ -6,7 +6,7 @@ edevis.patches.v1_0.remove_testing_fields
 edevis.patches.v1_0.remove_letter_heads
 edevis.patches.v1_0.delete_supp_field
 edevis.patches.v1_0.remove_custom_fields
-
+edevis.patches.v1_0.delete_item_field
 
 [post_model_sync]
 # Patches added in this section will be executed after doctypes are migrated

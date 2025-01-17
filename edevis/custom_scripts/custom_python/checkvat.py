@@ -80,10 +80,10 @@ def checkvat(name, tax_id=None, address=None):
 	testresult = False
 	customer.tax_id_validation_date =  datetime.strptime(result["Datum"], '%d.%m.%Y') 
 	if result['Erg_Name'] == "A" and result['Erg_PLZ'] == "A" and result['Erg_Ort'] == "A" and result['Erg_Str'] == "A" and result["ErrorCode"] == "200":
-		customer.tax_id_validation_result =  'Ergebnis: Gültig (' + result["ErrorCode"] + ')'
+		customer.tax_id_validation_result =  'Ergebnis: Gültig'
 		testresult=True
 	else:
-		customer.tax_id_validation_result = 'Ergebnis: Ungültig (' + result["ErrorCode"] + ')'
+		customer.tax_id_validation_result = 'Ergebnis: Ungültig'
 		testresult=False
 
 	
@@ -183,7 +183,7 @@ def checkvat(name, tax_id=None, address=None):
 	</table>
 	'''
 
-
+	customer.save()
 	if testresult:
 		validation_doc = frappe.get_doc(dict(
 			doctype='VAT ID Validation', 
