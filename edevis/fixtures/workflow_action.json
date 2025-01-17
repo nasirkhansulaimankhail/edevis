@@ -1,5 +1,26 @@
 [
  {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-01-09 18:58:45.593753",
+  "name": "vp8r1ercve",
+  "permitted_roles": [
+   {
+    "parent": "vp8r1ercve",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "Lead",
+  "reference_name": "CRM-LEAD-2025-00005",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
   "completed_by": "Administrator",
   "completed_by_role": "All",
   "docstatus": 0,
