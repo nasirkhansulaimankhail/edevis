@@ -102,9 +102,9 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2025-01-09 17:27:02.000017",
+  "modified": "2025-01-21 14:28:29.572378",
   "name": "Cancellation by APP",
-  "style": "",
+  "style": "Danger",
   "workflow_state_name": "Cancellation by APP"
  },
  {
