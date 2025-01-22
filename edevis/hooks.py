@@ -170,6 +170,11 @@ fixtures = [
     {
 		"doctype": "Workflow Action"
     },
+    {"dt": "Property Setter", "filters": [
+        [
+            "module", "=", "Edevis"
+        ]
+    ]}, 
     {"dt": "Role", "filters": [
         [
             "name", "in", [
@@ -220,7 +225,7 @@ fixtures = [
                     "Section End"
             ]
         ]
-    ]}
+    ]},
 ]
 # Scheduled Tasks
 # ---------------
