@@ -10,6 +10,7 @@ import frappe
 from frappe.utils import cint, cstr
 from frappe.query_builder.functions import _max as get_max_value
 from erpnext.selling.doctype.customer.customer import Customer as ERPNextCustomer
+import re
 
 
 from frappe import _
@@ -46,6 +47,30 @@ class Customer(ERPNextCustomer):
         self.create_and_link_debit_account(company)
 
         self.link_contact()
+        
+    def validate(self):
+         self.validate_tax_category()
+         
+    def validate_tax_category(self): 
+        
+        tax_category = self.tax_category or ''
+        tax_id = self.tax_id or ''
+        
+        if tax_category == "Inland" and tax_id != '':           
+            
+            vatPatternGermany = '(DE)?[0-9]{9}'
+            result = re.match(vatPatternGermany, tax_id)
+            
+            if not result:
+                
+                self.tax_id = ''
+                
+                frappe.msgprint(
+                _("The provided VAT <strong>{}</strong> is not valid in Germany.<br/><br/>It should start with 'DE' followed by nine single digit numbers (e.g. <strong>DE123456789</strong>)"
+                .format(
+                    tax_id
+                ))
+            )       
 
     def link_contact(self):
         contact = frappe.get_doc("Contact", frappe.db.get_value("Dynamic Link", {"link_name": self.lead_name}, "parent"))
