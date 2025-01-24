@@ -73,14 +73,16 @@ class Customer(ERPNextCustomer):
             )       
 
     def link_contact(self):
-        contact = frappe.get_doc("Contact", frappe.db.get_value("Dynamic Link", {"link_name": self.lead_name}, "parent"))
-        contact.append("links", {
-            "link_doctype": "Customer",
-            "link_name": self.name
-        })
-        contact.save()
-        self.customer_primary_contact = contact.name
-        self.save()
+        if self.lead_name:
+            if frappe.db.exists("Contact", frappe.db.get_value("Dynamic Link", {"link_name": self.lead_name}, "parent")):
+                contact = frappe.get_doc("Contact", frappe.db.get_value("Dynamic Link", {"link_name": self.lead_name}, "parent"))
+                contact.append("links", {
+                    "link_doctype": "Customer",
+                    "link_name": self.name
+                })
+                contact.save()
+                self.customer_primary_contact = contact.name
+                self.save()
 
     def create_and_link_debit_account(self, company):
         #get the value for auto debit account creation from settings 
