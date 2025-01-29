@@ -5978,5 +5978,31 @@
   "name": "di7paf8n58",
   "source_text": "Warranty Exception",
   "translated_text": "Gewährleistungseinschränkung"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2025-01-29 12:09:39.690801",
+  "name": "jfe74qh6mp",
+  "source_text": "Total weight net",
+  "translated_text": "Gesamtgewicht"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2025-01-29 12:10:05.031128",
+  "name": "tk44tkpad2",
+  "source_text": "Packaging",
+  "translated_text": "Verpackung"
  }
 ]
