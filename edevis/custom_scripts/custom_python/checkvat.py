@@ -59,7 +59,7 @@ def ask_vies(vat_id_them):
 	return client.service.checkVat(country_code, tax_id)
 
 @frappe.whitelist()
-def checkvat(name, tax_id=None, address=None):
+def checkvat(name, tax_id=None, address=None, popup_flag=True):
 	if address is None:
 		message = _('Customer Primary Address') + ' is missing!'
 		frappe.throw(message)
@@ -205,4 +205,5 @@ def checkvat(name, tax_id=None, address=None):
 		customer.notify_update()
 	
 	# show results to the user
-	frappe.msgprint(str, title=customer.tax_id_validation_result, indicator='green' if testresult else 'red')
+	if popup_flag:
+		frappe.msgprint(str, title=customer.tax_id_validation_result, indicator='green' if testresult else 'red')

@@ -126,7 +126,9 @@ doctype_js = {
 
 override_doctype_class = {
 	"Customer": "edevis.document_controllers.customer.Customer",
-    "Lead": "edevis.document_controllers.lead.Lead"
+    "Lead": "edevis.document_controllers.lead.Lead",
+    "Sales Order": "edevis.document_controllers.sales_order.SalesOrder",
+    "Sales Invoice": "edevis.document_controllers.sales_invoice.SalesInvoice"
 }
 
 # Document Events
