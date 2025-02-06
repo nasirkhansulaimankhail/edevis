@@ -5,13 +5,13 @@ class SalesController:
 
         if self.tax_category in ["EU", "Inland"]:
             if not self.tax_id:
-                frappe.msgprint("Bitte beachten Sie, dass im Kunden keine VAT ID hinterlegt ist.")
+                frappe.msgprint("Im Kunden ist keine VAT ID hinterlegt")
 
 
     def check_vat(self):
         if self.tax_category in ["EU", "Inland"]:
             if not self.tax_id:
-               frappe.throw("Bitte beachten Sie, dass im Kunden keine gültige VAT ID hinterlegt ist")
+               frappe.throw("Im Kunden ist keine VAT ID hinterlegt")
         validate = False
         if self.tax_category == "EU":
             
@@ -19,4 +19,4 @@ class SalesController:
             validate = customer.check_vat()
             if validate:
                 frappe.db.commit()
-                frappe.throw(f"Customer VAT validation failed")
+                frappe.throw(f"Im Kunden ist keine gültige VAT ID hinterlegt")
