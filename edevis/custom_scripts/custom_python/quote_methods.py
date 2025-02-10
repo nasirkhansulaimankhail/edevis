@@ -139,24 +139,40 @@ def get_dual_use(self):
 	all_templates = []
 	templates = []
 	i = 1
+	items = []
+	
+	
 	for d in self.items:
-		
-		item_templates = frappe.db.get_all("Item Dual Use Item", filters={"parent": d.item_code}, fields=["dual_use_template"])
-		if item_templates:
-			for template in item_templates:
-				template = template.dual_use_template
-				if template not in all_templates:
-					all_templates.append(template)
-					templates.append(frappe.db.get_values("Dual Use Template", template, ["en", "de", "name"], as_dict=1)[0])
-				templates = set_item(templates, d.item_code, template)
+		if not frappe.db.exists("Product Bundle", d.item_code):
+			item_templates = frappe.db.get_all("Item Dual Use Item", filters={"parent": d.item_code}, fields=["dual_use_template"])
+			
+			if item_templates:
+				for template in item_templates:
+					template = template.dual_use_template
+					if template not in all_templates:
+						all_templates.append(template)
+						templates.append(frappe.db.get_values("Dual Use Template", template, ["en", "de", "name"], as_dict=1)[0])
+					templates = set_item(templates, d.item_code, template)
+
+		else:
+			for pb in frappe.get_all("Product Bundle Item", {"parent": d.item_code}, ["item_code"]):
+				item_templates = frappe.db.get_all("Item Dual Use Item", filters={"parent": pb.item_code}, fields=["dual_use_template"])
+			
+				if item_templates:
+					for template in item_templates:
+						template = template.dual_use_template
+						if template not in all_templates:
+							all_templates.append(template)
+							templates.append(frappe.db.get_values("Dual Use Template", template, ["en", "de", "name"], as_dict=1)[0])
+						templates = set_item(templates, d.item_code, template)
 	return templates
 
 def set_item(templates, item, template):
 	
 	for d in templates:
-		d = d
+		
 		if d.get("name") == template:
-			print(d.get("itemss"))
+			
 			if not d.get("itemss"):
 				d['itemss'] = item
 				
