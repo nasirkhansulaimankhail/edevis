@@ -154,7 +154,9 @@ fixtures = [
         [
             "name", "in", [
                 "Quotation - ED",
-                "Sales Order - ED"
+                "Sales Order - ED",
+                "Delivery Note - ED",
+                "Sales Invoice - ED"
               ]
         ]
     ]},
