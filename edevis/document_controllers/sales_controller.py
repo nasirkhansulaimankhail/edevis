@@ -17,6 +17,5 @@ class SalesController:
             
             customer = frappe.get_doc("Customer", self.customer)
             validate = customer.check_vat()
-            if validate:
-                frappe.db.commit()
+            if not validate:
                 frappe.throw(f"Im Kunden ist keine gültige VAT ID hinterlegt")
