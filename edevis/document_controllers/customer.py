@@ -172,6 +172,7 @@ class Customer(ERPNextCustomer):
     def check_vat(self):
         from edevis.custom_scripts.custom_python.checkvat import checkvat
         checkvat(self.name, self.tax_id, self.customer_primary_address, popup_flag=False)
+        frappe.db.commit()
         if self.tax_id_validation_result == "Ergebnis: Gültig":
             return True
         return False
