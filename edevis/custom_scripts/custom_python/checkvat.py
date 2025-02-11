@@ -207,3 +207,4 @@ def checkvat(name, tax_id=None, address=None, popup_flag=True):
 	# show results to the user
 	if popup_flag:
 		frappe.msgprint(str, title=customer.tax_id_validation_result, indicator='green' if testresult else 'red')
+	return testresult
