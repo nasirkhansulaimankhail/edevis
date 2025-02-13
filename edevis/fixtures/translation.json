@@ -5978,5 +5978,57 @@
   "name": "di7paf8n58",
   "source_text": "Warranty Exception",
   "translated_text": "Gewährleistungseinschränkung"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2025-02-13 10:28:46.535983",
+  "name": "uh2vsa2ohm",
+  "source_text": "Total weight net",
+  "translated_text": "Netto Gesamtgewicht"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2025-02-13 11:05:55.720647",
+  "name": "i89nljf0ec",
+  "source_text": "Payment Due Date",
+  "translated_text": "Fälligkeitsdatum"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2025-02-13 11:06:34.609791",
+  "name": "khc7dgk1hd",
+  "source_text": "Delivery Note",
+  "translated_text": "Lieferschein"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2025-02-13 11:07:16.643731",
+  "name": "hni82ms32u",
+  "source_text": "Delivery Note Date",
+  "translated_text": "Lieferscheindatum"
  }
 ]
