@@ -6030,5 +6030,18 @@
   "name": "hni82ms32u",
   "source_text": "Delivery Note Date",
   "translated_text": "Lieferscheindatum"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2025-02-20 12:45:39.041696",
+  "name": "fbg1cgdj0e",
+  "source_text": "Down Payment Invoice",
+  "translated_text": "Anzahlungssrechnung"
  }
 ]
