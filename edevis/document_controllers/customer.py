@@ -15,7 +15,7 @@ import re
 
 from frappe import _
 class Customer(ERPNextCustomer):
-
+    
     #overrides existing autoname function in standard Customer Class from ERPNext
     def autoname(self):
         customer_id = 10001
@@ -45,10 +45,11 @@ class Customer(ERPNextCustomer):
 
         #creates and links a debit account with the customer
         self.create_and_link_debit_account(company)
-
+        
         self.link_contact()
         
     def validate(self):
+         super(Customer, self).validate()
          self.validate_tax_category()
          
     def validate_tax_category(self): 
@@ -73,6 +74,7 @@ class Customer(ERPNextCustomer):
             )       
 
     def link_contact(self):
+        #fetches  Primary Contact from Lead
         if self.lead_name:
             if frappe.db.exists("Contact", frappe.db.get_value("Dynamic Link", {"link_name": self.lead_name}, "parent")):
                 contact = frappe.get_doc("Contact", frappe.db.get_value("Dynamic Link", {"link_name": self.lead_name}, "parent"))
@@ -94,12 +96,18 @@ class Customer(ERPNextCustomer):
             #create_debit_account() creates debit account as customer_id - customer_name - company_abbr eg. 10001 - Nasir Khan - NKC
             debit_account = self.create_debit_account(company)
             
-            #links auto created debit account to the customer
-            self.append("accounts", {
-                "company": company,
-                "account": debit_account
-            })
-            self.save()
+            #link account with the customer
+            account_doc = frappe.new_doc("Party Account")
+            account_doc.update(
+                {
+                    "parent": self.name, 
+                    "conpany": company, 
+                    "account": debit_account,
+                    "parenttype": "Customer",
+                    "parentfield": "accounts"
+                }
+            )
+            account_doc.insert(ignore_permissions=True)
 
 
     def create_debit_account(self, company):
