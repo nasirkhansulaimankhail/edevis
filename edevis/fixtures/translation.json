@@ -6043,5 +6043,57 @@
   "name": "fbg1cgdj0e",
   "source_text": "Down Payment Invoice",
   "translated_text": "Anzahlungssrechnung"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2025-03-08 00:25:53.867283",
+  "name": "2l48q3jnpm",
+  "source_text": "SInvoice",
+  "translated_text": "Invoice"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2025-03-08 00:26:07.553883",
+  "name": "75bebcvvbd",
+  "source_text": "SInvoice",
+  "translated_text": "Rechnung"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2025-03-08 00:28:32.966767",
+  "name": "5suiu4bfqt",
+  "source_text": "Pro forma Invoice",
+  "translated_text": "Proforma Rechnung"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2025-03-08 00:33:51.139423",
+  "name": "jnfg17asbh",
+  "source_text": "Offer",
+  "translated_text": "Angebot"
  }
 ]
