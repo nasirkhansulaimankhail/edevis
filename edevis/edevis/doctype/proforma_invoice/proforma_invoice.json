@@ -7,7 +7,12 @@
  "engine": "InnoDB",
  "field_order": [
   "naming_series",
-  "delivery_note"
+  "delivery_note",
+  "amended_from",
+  "section_break_ezya",
+  "top_additional_notes",
+  "column_break_nozm",
+  "bottom_additional_notes"
  ],
  "fields": [
   {
@@ -27,11 +32,40 @@
    "label": "Delivery Note",
    "options": "Delivery Note",
    "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Proforma Invoice",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "section_break_ezya",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "top_additional_notes",
+   "fieldtype": "Text Editor",
+   "label": "Top Additional Notes"
+  },
+  {
+   "fieldname": "column_break_nozm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bottom_additional_notes",
+   "fieldtype": "Text Editor",
+   "label": "Bottom Additional Notes"
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2025-03-04 09:30:50.714710",
+ "modified": "2025-03-11 21:09:50.390765",
  "modified_by": "Administrator",
  "module": "Edevis",
  "name": "Proforma Invoice",
@@ -48,6 +82,22 @@
    "report": 1,
    "role": "System Manager",
    "share": 1,
+   "write": 1
+  },
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "00201 ADM",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
    "write": 1
   }
  ],
