@@ -8,7 +8,11 @@
  "field_order": [
   "naming_series",
   "delivery_note",
-  "amended_from"
+  "amended_from",
+  "section_break_ezya",
+  "top_additional_notes",
+  "column_break_nozm",
+  "bottom_additional_notes"
  ],
  "fields": [
   {
@@ -38,12 +42,30 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "fieldname": "section_break_ezya",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "top_additional_notes",
+   "fieldtype": "Text Editor",
+   "label": "Top Additional Notes"
+  },
+  {
+   "fieldname": "column_break_nozm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bottom_additional_notes",
+   "fieldtype": "Text Editor",
+   "label": "Bottom Additional Notes"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-03-08 00:20:52.584832",
+ "modified": "2025-03-11 21:09:50.390765",
  "modified_by": "Administrator",
  "module": "Edevis",
  "name": "Proforma Invoice",
