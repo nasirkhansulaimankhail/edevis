@@ -151,16 +151,6 @@ doc_events = {
 }
 
 fixtures = [
-    {"dt": "Print Format", "filters": [
-        [
-            "name", "in", [
-                "Quotation - ED",
-                "Sales Order - ED",
-                "Delivery Note - ED",
-                "Sales Invoice - ED"
-              ]
-        ]
-    ]},
     {"dt": "Workflow", "filters": [
         [
             "name", "in", [
