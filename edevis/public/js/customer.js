@@ -9,19 +9,19 @@ frappe.ui.form.on("Customer", {
       frappe.call({
         method: "edevis.custom_scripts.custom_python.checkvat.checkvat",
         args: {
-          name: frm.doc.customer_name,
+          name: frm.doc.name,
           tax_id: frm.doc.tax_id,
           address: frm.doc.customer_primary_address
         },
         freeze: true,
         freeze_message: __('Retrieving VAT Information from server...'),
         callback: function(r) {
+          frm.refresh_field("tax_id_validation_result");
           // frappe.msgprint (r)
         }
       });
     }, __("Actions"));
   },
-
   setup_opportunity_button(frm) {
     frm
       .add_custom_button(

@@ -4,6 +4,10 @@ app_publisher = "phamos.eu"
 app_description = "ERPNext Enhancement for Edevis"
 app_email = "support@phamos.eu"
 app_license = "mit"
+app_logo_url = "assets/edevis/images/edevis_logo.png"
+website_context = {
+    "logo1": "assets/edevis/images/edevis_logo.png"
+}
 # required_apps = []
 
 # Includes in <head>
@@ -32,6 +36,9 @@ doctype_js = {
     "Customer" : "public/js/customer.js",
     "Lead" : "public/js/lead.js",
     "Opportunity": "public/js/opportunity.js",
+    "Sales Order": "public/js/sales_order.js",
+    "Quotation": "public/js/quotation.js",
+    "Delivery Note": "public/js/delivery_note.js"
 }
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
@@ -118,9 +125,12 @@ doctype_js = {
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+	"Customer": "edevis.document_controllers.customer.Customer",
+    "Lead": "edevis.document_controllers.lead.Lead",
+    "Sales Order": "edevis.document_controllers.sales_order.SalesOrder",
+    "Sales Invoice": "edevis.document_controllers.sales_invoice.SalesInvoice"
+}
 
 # Document Events
 # ---------------
@@ -141,36 +151,6 @@ doc_events = {
 }
 
 fixtures = [
-    {"dt": "Translation", "filters": [
-        [
-            "name", "in", [
-            "gjl90a7e63",
-            "gitrkf1beu",
-            "ggqc7oh1gj",
-            "ggnbofjoaq",
-            "gg0s7pu06s",
-            "gb8n8pofv1",
-            "gcnbiriisu",
-            "gceik5povl",
-            "gb1co6jil4",
-            "gbhpvjqck1",
-            "gaofstpch2"
-            ]
-        ]
-    ]},
-    {"dt": "Print Format", "filters": [
-        [
-            "name", "in", [
-                "Quote",
-                "QuoteNew",
-                "QuoteTest",
-                "Leistungsbeschreibung",
-                "Auftragsbestätigung",
-                "Invoice",
-                "DeliveryNote"
-              ]
-        ]
-    ]},
     {"dt": "Workflow", "filters": [
         [
             "name", "in", [
@@ -178,9 +158,18 @@ fixtures = [
             ]
         ]
     ]},
+    
     {
 		"doctype": "Workflow State"
     },
+    {
+		"doctype": "Workflow Action"
+    },
+    {"dt": "Property Setter", "filters": [
+        [
+            "module", "=", "Edevis"
+        ]
+    ]}, 
     {"dt": "Role", "filters": [
         [
             "name", "in", [
@@ -204,10 +193,35 @@ fixtures = [
             ]
         ]
     ]},
-    
-
+    {"dt": "Letter Head", "filters": [
+        [
+            "name", "in", [
+                "edevis Letterhead",
+            ]
+        ]
+    ]},
+    {
+        "doctype": "Print Settings"
+    },
+    {
+        "doctype": "Terms and Conditions"
+    },
+    {
+        "doctype": "Translation"
+    },
+    {
+        "doctype": "Dual Use Template"
+    },
+    {
+        "doctype": "Item", "filters": [
+            [
+                "name", "in", [
+                    "Section Header",
+                    "Section End"
+            ]
+        ]
+    ]},
 ]
-
 # Scheduled Tasks
 # ---------------
 
@@ -314,7 +328,9 @@ jinja = {
         "edevis.custom_scripts.custom_python.quote_methods.quoteitem_is_header",
         "edevis.custom_scripts.custom_python.quote_methods.is_sectionend",
         "edevis.custom_scripts.custom_python.quote_methods.quoteitem_has_discount",
-        "edevis.custom_scripts.custom_python.quote_methods.structurize_quoteitem"
+        "edevis.custom_scripts.custom_python.quote_methods.structurize_quoteitem",
+        "edevis.custom_scripts.custom_python.quote_methods.get_contacts",
+        "edevis.custom_scripts.custom_python.quote_methods.get_dual_use"
     ]
 }
 

@@ -59,7 +59,7 @@ def ask_vies(vat_id_them):
 	return client.service.checkVat(country_code, tax_id)
 
 @frappe.whitelist()
-def checkvat(name, tax_id=None, address=None):
+def checkvat(name, tax_id=None, address=None, popup_flag=True):
 	if address is None:
 		message = _('Customer Primary Address') + ' is missing!'
 		frappe.throw(message)
@@ -75,15 +75,15 @@ def checkvat(name, tax_id=None, address=None):
 	doc = frappe.get_doc('Address', address)
 	
 	# ask the German server
-	result = ask_bbf_online(mytin, tax_id, name, doc.city, doc.pincode, doc.address_line1)
+	result = ask_bbf_online(mytin, tax_id, customer.customer_name, doc.city, doc.pincode, doc.address_line1)
 	# evaluate the response
 	testresult = False
 	customer.tax_id_validation_date =  datetime.strptime(result["Datum"], '%d.%m.%Y') 
 	if result['Erg_Name'] == "A" and result['Erg_PLZ'] == "A" and result['Erg_Ort'] == "A" and result['Erg_Str'] == "A" and result["ErrorCode"] == "200":
-		customer.tax_id_validation_result =  'Ergebnis: Gültig (' + result["ErrorCode"] + ')'
+		customer.tax_id_validation_result =  'Ergebnis: Gültig'
 		testresult=True
 	else:
-		customer.tax_id_validation_result = 'Ergebnis: Ungültig (' + result["ErrorCode"] + ')'
+		customer.tax_id_validation_result = 'Ergebnis: Ungültig'
 		testresult=False
 
 	
@@ -91,6 +91,7 @@ def checkvat(name, tax_id=None, address=None):
 	# Remark: some contries doesnn't allo to retrieve company informations using a valid tax id. The result for address and name then will be '---'
 
 	vies_info=''
+	frappe.log_error(frappe.as_json(result, indent=4), "Test")
 	if not testresult and result["ErrorCode"]=='200':
 		response = ask_vies(tax_id)
 		vies_info = f'''
@@ -140,10 +141,18 @@ def checkvat(name, tax_id=None, address=None):
 		</tr>
 		<tr>
 			<td>
-				Company
+				Company ID
 			</td>
 			<td>
 				<span style="color: {'gray' if result['Erg_Name'] == "A" else 'red'};">{name}<b>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Company
+			</td>
+			<td>
+				<span style="color: {'gray' if result['Erg_Name'] == "A" else 'red'};">{customer.customer_name}<b>
 			</td>
 		</tr>
 		<tr>
@@ -174,7 +183,7 @@ def checkvat(name, tax_id=None, address=None):
 	</table>
 	'''
 
-
+	customer.save()
 	if testresult:
 		validation_doc = frappe.get_doc(dict(
 			doctype='VAT ID Validation', 
@@ -196,4 +205,6 @@ def checkvat(name, tax_id=None, address=None):
 		customer.notify_update()
 	
 	# show results to the user
-	frappe.msgprint(str, title=customer.tax_id_validation_result, indicator='green' if testresult else 'red')
+	if popup_flag:
+		frappe.msgprint(str, title=customer.tax_id_validation_result, indicator='green' if testresult else 'red')
+	return testresult

@@ -1,106 +1,98 @@
 {
-  "actions": [],
-  "allow_rename": 1,
-  "autoname": "prompt",
-  "creation": "2024-08-23 14:30:20.490288",
-  "doctype": "DocType",
-  "engine": "InnoDB",
-  "field_order": [
-    "examination_edevis_section",
-    "long_text_jysa",
-    "material",
-    "component_size",
-    "defect_type",
-    "defect_size",
-    "defective_parts",
-    "test_sequence",
-    "test_cycle",
-    "time_horizon"
-  ],
-  "fields": [
-    {
-      "fieldname": "long_text_jysa",
-      "fieldtype": "Long Text",
-      "label": "Test Problem"
-    },
-    {
-      "fieldname": "material",
-      "fieldtype": "Data",
-      "label": "Material",
-      "translatable": 1
-    },
-    {
-      "fieldname": "examination_edevis_section",
-      "fieldtype": "Section Break",
-      "label": "Examination edevis"
-    },
-    {
-      "fieldname": "component_size",
-      "fieldtype": "Data",
-      "label": "Component Size",
-      "translatable": 1
-    },
-    {
-      "fieldname": "defect_type",
-      "fieldtype": "Data",
-      "label": "Defect Type",
-      "translatable": 1
-    },
-    {
-      "fieldname": "defect_size",
-      "fieldtype": "Data",
-      "label": "Defect Size",
-      "translatable": 1
-    },
-    {
-      "fieldname": "defective_parts",
-      "fieldtype": "Data",
-      "label": "Defective Parts",
-      "translatable": 1
-    },
-    {
-      "fieldname": "test_sequence",
-      "fieldtype": "Select",
-      "label": "Test Sequence",
-      "options": "1\n2",
-      "translatable": 1
-    },
-    {
-      "fieldname": "test_cycle",
-      "fieldtype": "Data",
-      "label": "Test Cycle",
-      "translatable": 1
-    },
-    {
-      "fieldname": "time_horizon",
-      "fieldtype": "Data",
-      "label": "Time Horizon",
-      "translatable": 1
-    }
-  ],
-  "index_web_pages_for_search": 1,
-  "links": [],
-  "modified": "2024-08-23 10:31:44.289186",
-  "modified_by": "Administrator",
-  "module": "Edevis",
-  "name": "Pruefproblem",
-  "naming_rule": "Set by user",
-  "owner": "Administrator",
-  "permissions": [
-    {
-      "create": 1,
-      "delete": 1,
-      "email": 1,
-      "export": 1,
-      "print": 1,
-      "read": 1,
-      "report": 1,
-      "role": "System Manager",
-      "share": 1,
-      "write": 1
-    }
-  ],
-  "sort_field": "modified",
-  "sort_order": "DESC",
-  "states": []
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2024-08-23 14:30:20.490288",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "custom_inquiry_description_details",
+  "examination_edevis_section",
+  "material",
+  "component_size",
+  "defect_type",
+  "defect_size",
+  "defective_parts",
+  "test_cycle",
+  "time_horizon"
+ ],
+ "fields": [
+  {
+   "fieldname": "material",
+   "fieldtype": "Data",
+   "label": "Material",
+   "translatable": 1
+  },
+  {
+   "fieldname": "examination_edevis_section",
+   "fieldtype": "Section Break",
+   "label": "Examination edevis"
+  },
+  {
+   "fieldname": "component_size",
+   "fieldtype": "Data",
+   "label": "Component Size",
+   "translatable": 1
+  },
+  {
+   "fieldname": "defect_type",
+   "fieldtype": "Data",
+   "label": "Defect Type",
+   "translatable": 1
+  },
+  {
+   "fieldname": "defect_size",
+   "fieldtype": "Data",
+   "label": "Defect Size",
+   "translatable": 1
+  },
+  {
+   "fieldname": "defective_parts",
+   "fieldtype": "Data",
+   "label": "Defective Parts",
+   "translatable": 1
+  },
+  {
+   "fieldname": "test_cycle",
+   "fieldtype": "Data",
+   "label": "Test Cycle",
+   "translatable": 1
+  },
+  {
+   "fieldname": "time_horizon",
+   "fieldtype": "Data",
+   "label": "Time Horizon",
+   "translatable": 1
+  },
+  {
+   "fieldname": "custom_inquiry_description_details",
+   "fieldtype": "Long Text",
+   "label": "Anfrage Pr\u00fcfproblem"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-07 09:45:20.417498",
+ "modified_by": "Administrator",
+ "module": "Edevis",
+ "name": "Pruefproblem",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
 }

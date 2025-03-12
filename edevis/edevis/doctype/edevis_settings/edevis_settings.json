@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-11 22:34:52.441738",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_settings_section",
+  "auto_create_customer_accounts",
+  "column_break_loxh",
+  "debitors_parent_account"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_settings_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Settings"
+  },
+  {
+   "depends_on": "eval: doc.auto_create_customer_accounts",
+   "description": "This will be the account under which all the auto created debitors accounts (on creation of Customer) will be created.",
+   "fieldname": "debitors_parent_account",
+   "fieldtype": "Link",
+   "label": "Debitors Parent Account",
+   "mandatory_depends_on": "eval: doc.auto_create_customer_accounts",
+   "options": "Account"
+  },
+  {
+   "default": "0",
+   "description": "by enabling this, customer debit accounts will be automatically created and linked to the customer on creation of a customer. Accounts will be named as customer_no - customer_name.",
+   "fieldname": "auto_create_customer_accounts",
+   "fieldtype": "Check",
+   "label": "Auto Create Customer Debit Accounts"
+  },
+  {
+   "fieldname": "column_break_loxh",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-10-14 10:24:17.397102",
+ "modified_by": "Administrator",
+ "module": "Edevis",
+ "name": "Edevis Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
