@@ -15,3 +15,4 @@ edevis.patches.v1_1.update_roles
 # Patches added in this section will be executed after doctypes are migrated
 
 edevis.patches.v1_0.add_custom_field_for_lead #012
+edevis.patches.v1_1.remove_not_requried_roles
