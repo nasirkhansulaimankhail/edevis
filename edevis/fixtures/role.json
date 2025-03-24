@@ -7,9 +7,9 @@
   "home_page": null,
   "is_custom": 0,
   "modified": "2024-09-26 14:31:55.620072",
-  "name": "00201 APP",
+  "name": "0 APP",
   "restrict_to_domain": null,
-  "role_name": "00201 APP",
+  "role_name": "0 APP",
   "two_factor_auth": 0
  },
  {
@@ -20,9 +20,9 @@
   "home_page": null,
   "is_custom": 0,
   "modified": "2024-09-26 14:32:11.435545",
-  "name": "00201 ADM",
+  "name": "0 ADM",
   "restrict_to_domain": null,
-  "role_name": "00201 ADM",
+  "role_name": "0 ADM",
   "two_factor_auth": 0
  }
 ]

@@ -173,8 +173,8 @@ fixtures = [
     {"dt": "Role", "filters": [
         [
             "name", "in", [
-            "00201 ADM",
-            "00201 APP"
+            "0 ADM",
+            "0 APP"
             ]
         ]
     ]},
