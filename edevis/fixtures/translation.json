@@ -6095,31 +6095,5 @@
   "name": "jnfg17asbh",
   "source_text": "Offer",
   "translated_text": "Angebot"
- },
- {
-  "context": null,
-  "contributed": 0,
-  "contribution_docname": null,
-  "contribution_status": "",
-  "docstatus": 0,
-  "doctype": "Translation",
-  "language": "de",
-  "modified": "2025-03-20 20:33:59.218029",
-  "name": "e8fbuaqte6",
-  "source_text": "Cancellation of Invoice",
-  "translated_text": "Storno zu Rechnung"
- },
- {
-  "context": null,
-  "contributed": 0,
-  "contribution_docname": null,
-  "contribution_status": "",
-  "docstatus": 0,
-  "doctype": "Translation",
-  "language": "de",
-  "modified": "2025-03-20 20:36:05.970271",
-  "name": "pn2hvekrak",
-  "source_text": "Cancellation Invoice",
-  "translated_text": "Storno"
  }
 ]
