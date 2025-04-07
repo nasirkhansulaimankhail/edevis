@@ -221,6 +221,16 @@ fixtures = [
             ]
         ]
     ]},
+    {
+        "doctype": "Tax Category", "filters": [
+            [
+                "name", "in", [
+                    "Drittland",
+                    "EU",
+                    "Inland"
+            ]
+        ]
+    ]},
 ]
 # Scheduled Tasks
 # ---------------
