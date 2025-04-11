@@ -8,9 +8,9 @@ def create_sales_taxes_templates():
 
     # Fixed template definitions
     templates = [
-        {"account_number": "8400", "name": "Inland, Lieferungen: USt 19 %", "des1": "Versandkosten", "des2": "Erlöse USt. 19 %", "rate": 19},
+        {"account_number": "8400", "name": "Inland, Lieferungen: USt 19 %", "des1": "Versandkosten", "des2": "Umsatzsteuer 19%", "rate": 19},
         {"account_number": "8401", "name": "Inland, Dienstleistungen: USt 19 %", "des1": "Versandkosten", "des2": "Umsatzsteuer 19%", "rate": 19},
-        {"account_number": "8120", "name": "Drittland, Export-Lieferung: 0%", "des1": "Export-Lieferung: 0%", "des2": "Umsatzsteuer 0%", "rate": 0},
+        {"account_number": "8120", "name": "Drittland, Export-Lieferung: 0%", "des1": "Versandkosten", "des2": "Umsatzsteuer 0%", "rate": 0},
         {"account_number": "8338", "name": "Drittland, Dienstleistungen / Software: USt. 0%", "des1": "Versandkosten", "des2": "Umsatzsteuer 0%", "rate": 0},
         {"account_number": "8125", "name": "EU, Innergemeinschaftliche Lieferungen: USt 0 %", "des1": "Versandkosten", "des2": "Umsatzsteuer 0%", "rate": 0},
         {"account_number": "8336", "name": "EEU, Sonstige Leistung §13B: USt. 0%", "des1": "Versandkosten", "des2": "Umsatzsteuer 0%", "rate": 0}
