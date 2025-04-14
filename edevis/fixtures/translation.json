@@ -6095,5 +6095,44 @@
   "name": "jnfg17asbh",
   "source_text": "Offer",
   "translated_text": "Angebot"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2025-04-11 12:39:01.616856",
+  "name": "neiuqhogcs",
+  "source_text": "Versandkosten",
+  "translated_text": "Shipping charges"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2025-04-11 12:40:08.717064",
+  "name": "dq4s2b9640",
+  "source_text": "Umsatzsteuer 19%",
+  "translated_text": "Sales tax 19%"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2025-04-11 12:40:36.396468",
+  "name": "erc2gjsvir",
+  "source_text": "Umsatzsteuer 0%",
+  "translated_text": "Sales tax 0%"
  }
 ]
