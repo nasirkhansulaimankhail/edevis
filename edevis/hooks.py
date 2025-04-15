@@ -13,6 +13,8 @@ website_context = {
 # Includes in <head>
 # ------------------
 
+app_include_css = "/assets/edevis/css/small-fonts.css"
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/edevis/css/edevis.css"
 # app_include_js = "/assets/edevis/js/edevis.js"
