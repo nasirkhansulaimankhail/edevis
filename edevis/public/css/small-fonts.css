@@ -1,0 +1,15 @@
+:root {
+    --text-base: 13px; /* default ist 14px oder 16px */
+    --text-sm: 12px;
+    --text-xs: 11px;
+  }
+  
+  body,
+  .form-control,
+  .grid-row,
+  .frappe-control,
+  .page-head,
+  .module-sidebar-item {
+    font-size: var(--text-base) !important;
+  }
+  
