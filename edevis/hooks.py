@@ -105,6 +105,15 @@ doctype_js = {
 # before_app_uninstall = "edevis.utils.before_app_uninstall"
 # after_app_uninstall = "edevis.utils.after_app_uninstall"
 
+before_migrate = [
+    "edevis.migrate.remove_custom_print_formats"
+]
+after_migrate = [
+    "edevis.setup.setup_accounts.create_accounts_after_migrate",
+    "edevis.setup.sales_taxes_and_charges_template.create_sales_taxes_templates"
+]
+
+
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
@@ -220,6 +229,16 @@ fixtures = [
                 "name", "in", [
                     "Section Header",
                     "Section End"
+            ]
+        ]
+    ]},
+    {
+        "doctype": "Tax Category", "filters": [
+            [
+                "name", "in", [
+                    "Drittland",
+                    "EU",
+                    "Inland"
             ]
         ]
     ]},
