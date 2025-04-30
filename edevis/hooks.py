@@ -158,6 +158,9 @@ doc_events = {
 	"Opportunity": {
 		"validate": "edevis.custom_scripts.custom_python.opportunity.fetch_lead"
 	},
+    "Sales Invoice": {
+        "validate": "edevis.custom_scripts.custom_python.sales_invoice.set_serial_no_from_delivery_note"
+    }
 
 }
 
