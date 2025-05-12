@@ -59,138 +59,74 @@ def ask_vies(vat_id_them):
 	return client.service.checkVat(country_code, tax_id)
 
 @frappe.whitelist()
-def checkvat(name, tax_id=None, address=None, popup_flag=True):
+def checkvat(name, tax_id=None, address=None, popup_flag=True, party_type="Customer"):
 	if address is None:
-		message = _('Customer Primary Address') + ' is missing!'
-		frappe.throw(message)
+		frappe.throw(_('Primary Address is missing!'))
 
 	if tax_id is None:
-		message = _('Tax ID') + ' is missing!'
-		frappe.throw(message)
+		frappe.throw(_('Tax ID is missing!'))
 
-	customer = frappe.get_doc('Customer', name)
+	# Get the party doc based on type (Customer/Supplier)
+	party = frappe.get_doc(party_type, name)
+
 	mycompany = frappe.defaults.get_user_default("Company")
 	mytin = frappe.get_value('Company', mycompany, 'tax_id')
-
 	doc = frappe.get_doc('Address', address)
-	
+
 	# ask the German server
-	result = ask_bbf_online(mytin, tax_id, customer.customer_name, doc.city, doc.pincode, doc.address_line1)
+	result = ask_bbf_online(mytin, tax_id, party.get('customer_name', '') or party.get('supplier_name', ''), doc.city, doc.pincode, doc.address_line1)
+
 	# evaluate the response
 	testresult = False
-	customer.tax_id_validation_date =  datetime.strptime(result["Datum"], '%d.%m.%Y') 
+	party.tax_id_validation_date = datetime.strptime(result["Datum"], '%d.%m.%Y') 
 	if result['Erg_Name'] == "A" and result['Erg_PLZ'] == "A" and result['Erg_Ort'] == "A" and result['Erg_Str'] == "A" and result["ErrorCode"] == "200":
-		customer.tax_id_validation_result =  'Ergebnis: Gültig'
-		testresult=True
+		party.tax_id_validation_result = 'Ergebnis: Gültig'
+		testresult = True
 	else:
-		customer.tax_id_validation_result = 'Ergebnis: Ungültig'
-		testresult=False
+		party.tax_id_validation_result = 'Ergebnis: Ungültig'
+		testresult = False
 
-	
-	# just in case we got a confirmation that tax id is valid, but other entries (street, zip, name) dowesn't macth -> ask European Union VIES service for details
-	# Remark: some contries doesnn't allo to retrieve company informations using a valid tax id. The result for address and name then will be '---'
-
-	vies_info=''
-	frappe.log_error(frappe.as_json(result, indent=4), "Test")
-	if not testresult and result["ErrorCode"]=='200':
+	# fallback to VIES
+	vies_info = ''
+	if not testresult and result["ErrorCode"] == '200':
 		response = ask_vies(tax_id)
 		vies_info = f'''
 			<tr>
-				<td>
-					Company name retrieved from VIES
-				</td>
-				<td>
-					<span style="color: {'gray'};">{response.name}<b>
-				</td>
+				<td>Company name retrieved from VIES</td>
+				<td><span style="color: gray;">{response.name}</span></td>
 			</tr>
 			<tr>
-				<td>
-					Address retrieved from VIES
-				</td>
-				<td>
-					<span style="color: {'gray'};">{response.address}<b>
-				</td>
+				<td>Address retrieved from VIES</td>
+				<td><span style="color: gray;">{response.address}</span></td>
 			</tr>
 		'''
 
+	# Result HTML
+	party_name = party.get('customer_name', '') or party.get('supplier_name', '')
 	str = f'''	
 	<table style="border: collapse;">
-		<tr>
-			<td>
-				<b>VAT ID</b>
-			</td>
-			<td>
-				<span style="color: {'gray' if result["ErrorCode"] == "200" else 'red'};">{result["UstId_2"]}<b>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				Validation date
-			</td>
-			<td>
-				<span style="color: gray">{result["Datum"]}</span>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				Validation time
-			</td>
-			<td>
-				<span style="color: gray">{result["Uhrzeit"]}</span>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				Company ID
-			</td>
-			<td>
-				<span style="color: {'gray' if result['Erg_Name'] == "A" else 'red'};">{name}<b>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				Company
-			</td>
-			<td>
-				<span style="color: {'gray' if result['Erg_Name'] == "A" else 'red'};">{customer.customer_name}<b>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				Zip code
-			</td>
-			<td>
-				<span style="color: {'gray' if result['Erg_PLZ'] == "A" else 'red'};">{doc.pincode}<b>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				City
-			</td>
-			<td>
-				<span style="color: {'gray' if result['Erg_Ort'] == "A" else 'red'};">{doc.city}<b>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				Street
-			</td>
-			<td>
-				<span style="color: {'gray' if result['Erg_Str'] == "A" else 'red'};">{doc.address_line1}<b>
-			</td>
-		</tr>
+		<tr><td><b>VAT ID</b></td><td><span style="color: {'gray' if result["ErrorCode"] == "200" else 'red'};">{result["UstId_2"]}</span></td></tr>
+		<tr><td>Validation date</td><td><span style="color: gray">{result["Datum"]}</span></td></tr>
+		<tr><td>Validation time</td><td><span style="color: gray">{result["Uhrzeit"]}</span></td></tr>
+		<tr><td>Company ID</td><td><span style="color: {'gray' if result['Erg_Name'] == "A" else 'red'};">{name}</span></td></tr>
+		<tr><td>Company</td><td><span style="color: {'gray' if result['Erg_Name'] == "A" else 'red'};">{party_name}</span></td></tr>
+		<tr><td>Zip code</td><td><span style="color: {'gray' if result['Erg_PLZ'] == "A" else 'red'};">{doc.pincode}</span></td></tr>
+		<tr><td>City</td><td><span style="color: {'gray' if result['Erg_Ort'] == "A" else 'red'};">{doc.city}</span></td></tr>
+		<tr><td>Street</td><td><span style="color: {'gray' if result['Erg_Str'] == "A" else 'red'};">{doc.address_line1}</span></td></tr>
 		{vies_info}
 	</table>
 	'''
 
-	customer.save()
+	party.save()
+
 	if testresult:
 		validation_doc = frappe.get_doc(dict(
 			doctype='VAT ID Validation', 
-			customer=name,
-			company_name=name, 
+			company_name=name,
+			customer=name if party_type == 'Customer' else None,
+			supplier=name if party_type == 'Supplier' else None,
 			validation_taxid=result["ErrorCode"],
-			validation_result='Valid' if testresult else 'Invalid',
+			validation_result='Valid',
 			validation_name='Valid' if result['Erg_Name'] == "A" else 'Invalid',
 			validation_street='Valid' if result['Erg_Str'] == "A" else 'Invalid',
 			validation_zipcode='Valid' if result['Erg_PLZ'] == "A" else 'Invalid',
@@ -200,11 +136,9 @@ def checkvat(name, tax_id=None, address=None, popup_flag=True):
 			city=doc.city,
 		)).insert(ignore_permissions=True)		
 		validation_doc.submit()
-		# save result to customer fields
-		customer.save()
-		customer.notify_update()
-	
-	# show results to the user
+		party.notify_update()
+
 	if popup_flag:
-		frappe.msgprint(str, title=customer.tax_id_validation_result, indicator='green' if testresult else 'red')
+		frappe.msgprint(str, title=party.tax_id_validation_result, indicator='green' if testresult else 'red')
+
 	return testresult
