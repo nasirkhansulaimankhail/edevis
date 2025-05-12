@@ -36,6 +36,7 @@ app_include_css = "/assets/edevis/css/small-fonts.css"
 # include js in doctype views
 doctype_js = {
     "Customer" : "public/js/customer.js",
+    "Supplier" : "public/js/supplier.js",
     "Lead" : "public/js/lead.js",
     "Opportunity": "public/js/opportunity.js",
     "Sales Order": "public/js/sales_order.js",

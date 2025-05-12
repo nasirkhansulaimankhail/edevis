@@ -35,7 +35,6 @@
    "in_standard_filter": 1,
    "label": "Customer",
    "options": "Customer",
-   "reqd": 1,
    "search_index": 1
   },
   {
@@ -142,11 +141,10 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-09-23 13:10:35.385526",
+ "modified": "2025-05-12 14:48:04.593051",
  "modified_by": "Administrator",
  "module": "Edevis",
  "name": "VAT ID Validation",
- "name_case": "UPPER CASE",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
@@ -175,6 +173,7 @@
   }
  ],
  "quick_entry": 1,
+ "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
