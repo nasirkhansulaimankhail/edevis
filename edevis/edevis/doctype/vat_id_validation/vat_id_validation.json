@@ -9,6 +9,8 @@
  "engine": "InnoDB",
  "field_order": [
   "customer",
+  "party",
+  "party_type",
   "tax_id",
   "section_break_3",
   "validation_taxid",
@@ -27,16 +29,6 @@
   "amended_from"
  ],
  "fields": [
-  {
-   "bold": 1,
-   "fieldname": "customer",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Customer",
-   "options": "Customer",
-   "search_index": 1
-  },
   {
    "fieldname": "tax_id",
    "fieldtype": "Data",
@@ -136,12 +128,39 @@
    "options": "VAT ID Validation",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "party",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Party",
+   "search_index": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "party_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Party Type",
+   "options": "Customer\nSupplier",
+   "search_index": 1
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Customer",
+   "options": "Customer",
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-05-12 14:48:04.593051",
+ "modified": "2025-05-13 11:25:36.052674",
  "modified_by": "Administrator",
  "module": "Edevis",
  "name": "VAT ID Validation",
