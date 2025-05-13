@@ -8,6 +8,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "customer",
   "party",
   "party_type",
   "tax_id",
@@ -146,12 +147,20 @@
    "label": "Party Type",
    "options": "Customer\nSupplier",
    "search_index": 1
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Customer",
+   "options": "Customer",
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-05-13 07:58:19.401848",
+ "modified": "2025-05-13 11:25:36.052674",
  "modified_by": "Administrator",
  "module": "Edevis",
  "name": "VAT ID Validation",
