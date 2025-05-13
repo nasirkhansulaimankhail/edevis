@@ -19,6 +19,7 @@
     "parent": "Lead Approval Process",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "Draft",
     "update_field": null,
     "update_value": null,
@@ -34,6 +35,7 @@
     "parent": "Lead Approval Process",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "To be released by ADM",
     "update_field": null,
     "update_value": null,
@@ -49,6 +51,7 @@
     "parent": "Lead Approval Process",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "To be released by APP",
     "update_field": null,
     "update_value": null,
@@ -64,6 +67,7 @@
     "parent": "Lead Approval Process",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "Cancellation by ADM",
     "update_field": null,
     "update_value": null,
@@ -79,6 +83,7 @@
     "parent": "Lead Approval Process",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "Can be converted to customer",
     "update_field": null,
     "update_value": null,
@@ -94,6 +99,7 @@
     "parent": "Lead Approval Process",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "Marketing mailing list",
     "update_field": null,
     "update_value": null,
@@ -109,6 +115,7 @@
     "parent": "Lead Approval Process",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "Cancellation by APP",
     "update_field": null,
     "update_value": null,
@@ -125,6 +132,7 @@
     "parent": "Lead Approval Process",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "Draft",
     "workflow_builder_id": null
    },
@@ -137,6 +145,7 @@
     "parent": "Lead Approval Process",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "To be released by ADM",
     "workflow_builder_id": null
    },
@@ -149,6 +158,7 @@
     "parent": "Lead Approval Process",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "To be released by ADM",
     "workflow_builder_id": null
    },
@@ -161,6 +171,7 @@
     "parent": "Lead Approval Process",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "To be released by APP",
     "workflow_builder_id": null
    },
@@ -173,6 +184,7 @@
     "parent": "Lead Approval Process",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "To be released by APP",
     "workflow_builder_id": null
    },
@@ -185,6 +197,7 @@
     "parent": "Lead Approval Process",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "Cancellation by ADM",
     "workflow_builder_id": null
    },
@@ -197,6 +210,7 @@
     "parent": "Lead Approval Process",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "Cancellation by ADM",
     "workflow_builder_id": null
    }
