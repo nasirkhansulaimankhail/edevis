@@ -122,7 +122,7 @@ def checkvat(name, tax_id=None, address=None, popup_flag=True, party_type="Custo
 	if testresult:
 		validation_doc = frappe.get_doc(dict(
 			doctype='VAT ID Validation', 
-			company_name=name,
+			company_name=doc.name,
 			customer=name if party_type == 'Customer' else None,
 			supplier=name if party_type == 'Supplier' else None,
 			party=name,
