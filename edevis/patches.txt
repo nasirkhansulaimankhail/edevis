@@ -16,3 +16,5 @@ edevis.patches.v1_1.update_roles
 
 edevis.patches.v1_0.add_custom_field_for_lead #012
 edevis.patches.v1_1.remove_not_requried_roles
+edevis.patches.v1_1.vat_id_customer_set
+
