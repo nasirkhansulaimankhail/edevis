@@ -125,6 +125,8 @@ def checkvat(name, tax_id=None, address=None, popup_flag=True, party_type="Custo
 			company_name=name,
 			customer=name if party_type == 'Customer' else None,
 			supplier=name if party_type == 'Supplier' else None,
+			party=name,
+			party_type=party_type,
 			validation_taxid=result["ErrorCode"],
 			validation_result='Valid',
 			validation_name='Valid' if result['Erg_Name'] == "A" else 'Invalid',
@@ -134,7 +136,7 @@ def checkvat(name, tax_id=None, address=None, popup_flag=True, party_type="Custo
 			address_line_1=doc.address_line1,
 			zip_code=doc.pincode,
 			city=doc.city,
-		)).insert(ignore_permissions=True)		
+		)).insert(ignore_permissions=True)
 		validation_doc.submit()
 		party.notify_update()
 
