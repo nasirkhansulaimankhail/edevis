@@ -15,6 +15,7 @@
   "section_break_3",
   "validation_taxid",
   "validation_result",
+  "validation_date",
   "section_break_6",
   "validation_name",
   "validation_street",
@@ -155,12 +156,17 @@
    "label": "Customer",
    "options": "Customer",
    "search_index": 1
+  },
+  {
+   "fieldname": "validation_date",
+   "fieldtype": "Date",
+   "label": "Validation Date"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-05-13 11:25:36.052674",
+ "modified": "2025-05-14 09:16:03.288634",
  "modified_by": "Administrator",
  "module": "Edevis",
  "name": "VAT ID Validation",
