@@ -7,6 +7,45 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "de",
+  "modified": "2025-05-08 17:05:04.186268",
+  "name": "ka1ukgkbfv",
+  "source_text": "Customs-compliant item description",
+  "translated_text": "Zollkonforme Warenbeschreibung"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2025-05-13 13:00:21.492987",
+  "name": "l0he1t86fj",
+  "source_text": "Dual Use Export Item Number",
+  "translated_text": "Dual-Use-Ausfuhrlistenpositionsnummer"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2025-05-14 12:51:22.762137",
+  "name": "75oe3gbeco",
+  "source_text": "Supplier Customer Ref",
+  "translated_text": "Kundennummer beim Lieferanten"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
   "modified": "2025-01-29 12:10:05.031128",
   "name": "tk44tkpad2",
   "source_text": "Packaging",
@@ -6212,5 +6251,18 @@
   "name": "14bq63upsv",
   "source_text": "Country of Origin",
   "translated_text": "Ursprungsland"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "de",
+  "modified": "2025-05-14 13:06:28.663389",
+  "name": "86674ggpmv",
+  "source_text": "Suppl. Customer Ref.",
+  "translated_text": "Lief.-Kunden Nr"
  }
 ]
