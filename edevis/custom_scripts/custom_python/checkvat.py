@@ -119,16 +119,20 @@ def checkvat(name, tax_id=None, address=None, popup_flag=True, party_type="Custo
 
 	party.save()
 
+	party_doc = frappe.get_doc(party_type, name)
+	company_name = party_doc.customer_name if party_type == "Customer" else party_doc.supplier_name
+
 	if testresult:
 		validation_doc = frappe.get_doc(dict(
 			doctype='VAT ID Validation', 
-			company_name=doc.name,
+			company_name=company_name,
 			customer=name if party_type == 'Customer' else None,
 			supplier=name if party_type == 'Supplier' else None,
 			party=name,
 			party_type=party_type,
 			validation_taxid=result["ErrorCode"],
 			validation_result='Valid',
+			validation_date = party.tax_id_validation_date,
 			validation_name='Valid' if result['Erg_Name'] == "A" else 'Invalid',
 			validation_street='Valid' if result['Erg_Str'] == "A" else 'Invalid',
 			validation_zipcode='Valid' if result['Erg_PLZ'] == "A" else 'Invalid',
@@ -144,3 +148,4 @@ def checkvat(name, tax_id=None, address=None, popup_flag=True, party_type="Custo
 		frappe.msgprint(str, title=party.tax_id_validation_result, indicator='green' if testresult else 'red')
 
 	return testresult
+
