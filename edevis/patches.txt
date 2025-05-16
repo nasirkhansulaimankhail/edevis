@@ -11,6 +11,9 @@ edevis.patches.v1_0.delete_custom_project_field
 edevis.patches.v1_1.delete_project_fields
 edevis.patches.v1_1.merge_roles
 edevis.patches.v1_1.update_roles
+edevis.patches.v1_1.delete_tax_id
+
+
 [post_model_sync]
 # Patches added in this section will be executed after doctypes are migrated
 
@@ -18,3 +21,4 @@ edevis.patches.v1_0.add_custom_field_for_lead #012
 edevis.patches.v1_1.remove_not_requried_roles
 edevis.patches.v1_1.vat_id_customer_set
 edevis.patches.v1_1.vat_id_fetch_validation
+edevis.patches.v1_1.delete_tax_id
