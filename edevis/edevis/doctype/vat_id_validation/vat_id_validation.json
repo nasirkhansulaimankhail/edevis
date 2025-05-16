@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:VV-{customer}-{YY}-{MM}-{DD}-{#####}",
+ "autoname": "format:VV-{party}-{YY}-{MM}-{DD}-{#####}",
  "creation": "2022-12-30 19:16:06.560401",
  "default_view": "List",
  "doctype": "DocType",
@@ -166,7 +166,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-05-14 09:16:03.288634",
+ "modified": "2025-05-16 17:08:24.884794",
  "modified_by": "Administrator",
  "module": "Edevis",
  "name": "VAT ID Validation",
