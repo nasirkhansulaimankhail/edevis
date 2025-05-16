@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestDualuseexportitemnumber(FrappeTestCase):
+class TestDualUseExportItemNo(FrappeTestCase):
 	pass
